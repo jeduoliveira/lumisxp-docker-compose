@@ -64,7 +64,7 @@ services:
     environment:
       - TOMCAT_AJP_MAX_THREADS=50
       - TOMCAT_HTTP_MAX_THREADS=10
-      - TOMCAT_HEAP=1G
+      - TOMCAT_HEAP=512M
       - LUMIS_DB_HOST=database
       - LUMIS_DB_PORT=3306
       - LUMIS_DB_USER=lumisportal
@@ -75,7 +75,7 @@ services:
       - LUMIS_SERVER_ID=lumisxp
       - ELASTICSEARCH_HOST=elasticsearch
       - ELASTICSEARCH_CLUSTER_NAME=lumisportal  
-      - WEB_ROOT_PATH=/usr/local/apache2/htdocs
+      - WEB_ROOT_PATH=/usr/local/htdocs
     volumes:
       - type: volume 
         source: lumis_analysis
