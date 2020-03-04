@@ -1,8 +1,5 @@
 Vários Docker Composes para o Lumis XP
 ================================
-
-[![travis](https://travis-ci.org/jeduoliveira/lumisxp-docker-compose.svg?branch=master)]()
-
 O que é?
 -----------------------
 O LumisXP (Lumis Experience Platform) é uma plataforma para a criação e gestão de soluções para a experiência digital do cliente.
