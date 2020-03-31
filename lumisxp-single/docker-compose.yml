@@ -58,6 +58,17 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.1.1    
+    networks:
+      - lumisxp
+    links:
+      - elasticsearch
+    ports:
+      - "5601:5601"
+    depends_on:       
+       - elasticsearch
 
   lumisxp:
     image: jeduoliveira/lumisxp:latest
@@ -120,8 +131,8 @@ services:
     - type: volume 
       source: lumis_htdocs
       target: /usr/local/apache2/htdocs
+      
 
-    
 volumes:
   database_data:
   elastic_data:

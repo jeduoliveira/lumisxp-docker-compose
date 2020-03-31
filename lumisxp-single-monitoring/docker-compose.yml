@@ -1,0 +1,159 @@
+version: '3.7'
+services:
+  elasticsearch:
+    image: jeduoliveira/elasticsearch:${ELASTIC_STACK_VERSION}
+    environment:
+      - node.name=node1
+      - cluster.name=lumisportal
+      - cluster.initial_master_nodes=node1
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512M -Xmx512M"
+      - http.cors.enabled=true
+      - http.cors.allow-origin=*
+      - network.host=_eth0_
+      - "action.auto_create_index= -lumisportal-*,+*"
+    ulimits:
+      nproc: 65535
+      memlock:
+        soft: -1
+        hard: -1
+    cap_add:
+      - ALL
+    volumes:
+      - type: volume
+        source: elastic_data
+        target: /usr/share/elasticsearch/data
+      - type: volume
+        source: lumis_analysis
+        target: /usr/share/elasticsearch/config/lumis-analysis
+    ports: ['9200:9200', '9300:9300']
+    networks: ['monitoring']
+    healthcheck:
+      test: ["CMD-SHELL", "curl --silent --fail localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${ELASTIC_STACK_VERSION}    
+    ports: ['5601:5601']
+    depends_on: ['elasticsearch']        
+    networks: ['monitoring']
+    healthcheck:
+      test: curl https://localhost:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  metricbeat:
+    image: docker.elastic.co/beats/metricbeat:${ELASTIC_STACK_VERSION}
+    command: ["--strict.perms=false", "-system.hostfs=/hostfs"]
+    user: root    
+    environment:
+        - output.elasticsearch.hosts=["${ELASTICSEARCH_HOST}"]
+        - setup.kibana.host=${KIBANA_HOST}          
+    volumes:
+      - /proc:/hostfs/proc:ro
+      - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
+      - /:/hostfs:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./metricbeat.docker.yml:/usr/share/metricbeat/metricbeat.yml:ro
+      - metricbeat:/usr/share/metricbeat/data    
+    depends_on: ['kibana', 'elasticsearch']
+    networks: ['monitoring']  
+    healthcheck:
+      test: curl https://kibanas:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    
+  beat:
+    image: docker.elastic.co/apm/apm-server:${ELASTIC_STACK_VERSION}
+    ports: ['8200:8200', '8201:8200']
+    environment:
+        - apm-server.host=0.0.0.0
+    #volumes:
+    #    - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
+    networks: ['monitoring']
+    depends_on: ['kibana', 'elasticsearch']    
+
+  db:
+    image: mysql:5.7
+    volumes:
+      - type: volume
+        source: database_data
+        target: /var/lib/mysql
+    environment: 
+      - MYSQL_ROOT_PASSWORD=87ti5ox6
+      - MYSQL_DATABASE=lumisportal
+      - MYSQL_USER=lumisportal
+      - MYSQL_PASSWORD=lumisportal
+    ports: ['3306:3306']
+    networks: ['monitoring']  
+    healthcheck:
+        test: "/usr/bin/mysql --user=lumisportal --password=lumisportal --execute \"SHOW DATABASES;\""
+        interval: 2s
+        timeout: 20s
+        retries: 10    
+
+  lumisxp:    
+    build: ./docker/lumisxp
+    environment:
+      - TOMCAT_AJP_MAX_THREADS=50
+      - TOMCAT_HTTP_MAX_THREADS=10
+      - TOMCAT_HEAP=512M
+      - LUMIS_DB_HOST=db
+      - LUMIS_DB_PORT=3306
+      - LUMIS_DB_USER=lumisportal
+      - LUMIS_DB_PASSWORD=lumisportal
+      - LUMIS_DB_NAME=lumisportal
+      - LUMIS_DB_MINIMUM_IDLE=10
+      - LUMIS_DB_MAXIMUM_POOL_SIZE=100
+      - LUMIS_SERVER_ID=lumisxp
+      - ELASTICSEARCH_HOST=elasticsearch
+      - ELASTICSEARCH_CLUSTER_NAME=lumisportal  
+      - WEB_ROOT_PATH=/usr/local/htdocs
+    volumes:
+      - type: volume 
+        source: lumis_analysis
+        target: /usr/share/elasticsearch/config/lumis-analysis
+      - type: volume
+        source: lumis_data
+        target: /usr/local/lumisportal/lumisdata/data
+      - type: volume
+        source: lumis_shared
+        target: /usr/local/lumisportal/lumisdata/shared
+      - type: volume
+        source: lumis_htdocs
+        target: /usr/local/htdocs
+    depends_on: ['db', 'elasticsearch']
+    networks: ['monitoring']
+    ports: ['8080:8080', '8009:8009']
+    healthcheck:
+      test: curl -sS http://localhost:8080/login.jsp || exit 1
+      interval: 60s
+      timeout: 10s
+      retries: 50
+
+  httpd:
+    build: ./docker/httpd
+    depends_on: ['lumisxp']
+    networks: ['monitoring']   
+    ports: ['80:80']
+    volumes:
+    - type: volume 
+      source: lumis_htdocs
+      target: /usr/local/apache2/htdocs
+
+volumes:
+  database_data:
+  elastic_data:
+  metricbeat:
+  lumis_analysis:
+  lumis_data:
+  lumis_shared: 
+  lumis_htdocs:
+  
+networks:
+  monitoring:
+    
