@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   elasticsearch:
-    image: jeduoliveira/elasticsearch:${ELASTIC_STACK_VERSION}
+    image: jeduoliveira/elasticsearch:7.1.1
     environment:
       - node.name=node1
       - cluster.name=lumisportal
@@ -12,6 +12,15 @@ services:
       - http.cors.allow-origin=*
       - network.host=_eth0_
       - "action.auto_create_index= -lumisportal-*,+*"
+    volumes:
+      - type: volume
+        source: elastic_data
+        target: /usr/share/elasticsearch/data
+      - type: volume
+        source: lumis_analysis
+        target: /usr/share/elasticsearch/config/lumis-analysis          
+    ports: ['9200:9200', '9300:9300']
+    networks: ['monitoring']
     ulimits:
       nproc: 65535
       memlock:
@@ -19,23 +28,14 @@ services:
         hard: -1
     cap_add:
       - ALL
-    volumes:
-      - type: volume
-        source: elastic_data
-        target: /usr/share/elasticsearch/data
-      - type: volume
-        source: lumis_analysis
-        target: /usr/share/elasticsearch/config/lumis-analysis
-    ports: ['9200:9200', '9300:9300']
-    networks: ['monitoring']
-    healthcheck:
-      test: ["CMD-SHELL", "curl --silent --fail localhost:9200/_cluster/health || exit 1"]
+    healthcheck:      
+      test: curl localhost:9200/_cluster/health >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
       interval: 30s
       timeout: 30s
-      retries: 3
+      retries: 10
   
   kibana:
-    image: docker.elastic.co/kibana/kibana:${ELASTIC_STACK_VERSION}    
+    image: docker.elastic.co/kibana/kibana:7.1.1 
     ports: ['5601:5601']
     depends_on: ['elasticsearch']        
     networks: ['monitoring']
@@ -43,51 +43,44 @@ services:
       test: curl https://localhost:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
       interval: 30s
       timeout: 10s
-      retries: 5
+      retries: 10
 
-  metricbeat:
-    image: docker.elastic.co/beats/metricbeat:${ELASTIC_STACK_VERSION}
-    command: ["--strict.perms=false", "-system.hostfs=/hostfs"]
-    user: root    
-    environment:
-        - output.elasticsearch.hosts=["${ELASTICSEARCH_HOST}"]
-        - setup.kibana.host=${KIBANA_HOST}          
+  metricbeat:    
+    build: ./docker/metricbeat
+    command: ["--strict.perms=false", "-system.hostfs=/hostfs", "-e"]
+    user: root
     volumes:
       - /proc:/hostfs/proc:ro
       - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
       - /:/hostfs:ro
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./metricbeat.docker.yml:/usr/share/metricbeat/metricbeat.yml:ro
+      - /var/run/docker.sock:/var/run/docker.sock      
       - metricbeat:/usr/share/metricbeat/data    
-    depends_on: ['kibana', 'elasticsearch']
+    depends_on: ['lumisxp', 'kibana', 'elasticsearch']
     networks: ['monitoring']  
     healthcheck:
-      test: curl https://kibanas:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
+      test: metricbeat test config
       interval: 30s
-      timeout: 10s
-      retries: 5
+      timeout: 15s
     
-  beat:
-    image: docker.elastic.co/apm/apm-server:${ELASTIC_STACK_VERSION}
+  apm-server:
+    build: ./docker/apm-server
     ports: ['8200:8200', '8201:8200']
     environment:
-        - apm-server.host=0.0.0.0
-    #volumes:
-    #    - ./apm-server.yml:/usr/share/apm-server/apm-server.yml
+      - apm-server.host=0.0.0.0    
     networks: ['monitoring']
     depends_on: ['kibana', 'elasticsearch']    
 
   db:
-    image: mysql:5.7
-    volumes:
-      - type: volume
-        source: database_data
-        target: /var/lib/mysql
+    image: mysql:5.7    
     environment: 
       - MYSQL_ROOT_PASSWORD=87ti5ox6
       - MYSQL_DATABASE=lumisportal
       - MYSQL_USER=lumisportal
       - MYSQL_PASSWORD=lumisportal
+    volumes:
+      - type: volume
+        source: database_data
+        target: /var/lib/mysql
     ports: ['3306:3306']
     networks: ['monitoring']  
     healthcheck:
@@ -135,8 +128,8 @@ services:
       timeout: 10s
       retries: 50
 
-  httpd:
-    build: ./docker/httpd
+  apache:
+    build: ./docker/apache
     depends_on: ['lumisxp']
     networks: ['monitoring']   
     ports: ['80:80']
