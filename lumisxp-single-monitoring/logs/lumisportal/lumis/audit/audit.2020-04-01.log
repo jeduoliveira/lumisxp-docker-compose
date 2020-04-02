@@ -1,0 +1,2458 @@
+2020-04-01 01:09:44,335  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,526  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,550  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,574  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,597  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,619  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,641  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,664  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:44,693  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 01:09:46,139  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028108371334955017133497C0E0143
+  Name: default'
+2020-04-01 01:09:46,149  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028108371334955017133497C0F0144
+  URL: localhost:8080/portal
+  Website: default(4028108371334955017133497C0E0143)'
+2020-04-01 01:09:46,153  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028108371334955017133497C0F0145
+  URL: localhost:8443/portal
+  Website: default(4028108371334955017133497C0E0143)'
+2020-04-01 01:09:46,169  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028108371334955017133497C0E0143
+  Name: default'
+2020-04-01 01:18:18,543  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 01:18:18,551  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 01:18:18,559  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 01:18:18,565  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 01:18:18,572  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 01:18:18,579  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 01:18:18,587  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 01:18:18,597  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 01:18:20,480  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 01:18:23,436  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 01:18:24,088  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:18:26,003  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:18:26,009  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 01:18:26,014  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 01:18:27,981  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:18:29,065  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 01:18:30,080  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:46:02,990  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,184  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,216  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,226  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,238  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,251  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,265  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,279  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:03,290  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 01:46:04,551  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028208971336A750171336AB97C0143
+  Name: default'
+2020-04-01 01:46:04,558  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028208971336A750171336AB97D0144
+  URL: localhost:8080/portal
+  Website: default(4028208971336A750171336AB97C0143)'
+2020-04-01 01:46:04,561  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028208971336A750171336AB97D0145
+  URL: localhost:8443/portal
+  Website: default(4028208971336A750171336AB97C0143)'
+2020-04-01 01:46:04,574  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028208971336A750171336AB97C0143
+  Name: default'
+2020-04-01 01:53:33,160  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 01:53:33,189  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 01:53:33,204  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 01:53:33,234  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 01:53:33,252  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 01:53:33,270  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 01:53:33,285  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 01:53:33,302  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 01:53:35,969  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 01:53:38,269  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 01:53:39,340  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:53:41,833  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:53:41,841  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 01:53:41,847  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 01:53:44,177  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 01:53:45,189  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 01:53:46,800  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 15:54:45,573  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,779  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,784  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,793  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,800  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,806  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,815  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,820  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:45,829  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 15:54:47,035  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C9980867136739F01713673BD720143
+  Name: default'
+2020-04-01 15:54:47,040  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C9980867136739F01713673BD730144
+  URL: localhost:8080/portal
+  Website: default(2C9980867136739F01713673BD720143)'
+2020-04-01 15:54:47,045  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C9980867136739F01713673BD730145
+  URL: localhost:8443/portal
+  Website: default(2C9980867136739F01713673BD720143)'
+2020-04-01 15:54:47,053  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C9980867136739F01713673BD720143
+  Name: default'
+2020-04-01 15:59:45,951  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 15:59:45,956  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 15:59:45,963  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 15:59:45,967  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 15:59:45,971  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 15:59:45,977  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 15:59:45,982  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 15:59:45,991  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 15:59:47,257  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 15:59:49,510  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 15:59:49,859  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 15:59:50,847  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 15:59:50,850  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 15:59:50,852  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 15:59:51,769  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 15:59:51,984  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 15:59:52,479  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 16:35:56,080  Category: Deployment - Type: Add Module - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added module: Pasa HotsiteABC' - Description: 'Added module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 16:35:56,148  Category: Deployment - Type: Add Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Added component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:35:56,149  Category: Deployment - Type: Add Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Added component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:35:56,601  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:35:56,609  Category: Deployment - Type: Update Module - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated module: Pasa HotsiteABC' - Description: 'Updated module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 16:35:56,610  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:36:01,184  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:36:02,796  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:36:37,520  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_CONTENT_BY_CHANNEL' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F2895660
+  primaryName: STR_CONTENT_BY_CHANNEL
+  versionNumber: 1'
+2020-04-01 16:36:37,533  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_CONTENT_BY_TYPE' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F29F5665
+  primaryName: STR_CONTENT_BY_TYPE
+  versionNumber: 1'
+2020-04-01 16:36:37,827  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_LIKED_CONTENT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39556B8
+  primaryName: STR_MOST_LIKED_CONTENT
+  versionNumber: 1'
+2020-04-01 16:36:37,936  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_JOURNEY_USERS_FLOW_STATISTICS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39656BC
+  primaryName: STR_JOURNEY_USERS_FLOW_STATISTICS
+  versionNumber: 1'
+2020-04-01 16:36:37,942  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_SLOWEST_AVG_INTERFACE_TRANSFORMATION' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39856C0
+  primaryName: STR_SLOWEST_AVG_INTERFACE_TRANSFORMATION
+  versionNumber: 1'
+2020-04-01 16:36:38,049  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_TIME_OF_DAY' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39956C4
+  primaryName: STR_PAGE_VIEWS_PER_TIME_OF_DAY
+  versionNumber: 1'
+2020-04-01 16:36:38,163  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_VIEWED_CONTENT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39A56C8
+  primaryName: STR_MOST_VIEWED_CONTENT
+  versionNumber: 1'
+2020-04-01 16:36:38,268  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_AVERAGE_DURATION' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39C56CC
+  primaryName: STR_REPORT_JOURNEYS_AVERAGE_DURATION
+  versionNumber: 1'
+2020-04-01 16:36:38,375  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_CAMPAIGNS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39D56D0
+  primaryName: STR_TOP_TRAFFIC_SOURCE_CAMPAIGNS
+  versionNumber: 1'
+2020-04-01 16:36:38,382  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_STARTED_COUNT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39E56D4
+  primaryName: STR_REPORT_JOURNEYS_STARTED_COUNT
+  versionNumber: 1'
+2020-04-01 16:36:38,387  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_COMPLETED_COUNT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F39F56D8
+  primaryName: STR_REPORT_JOURNEYS_COMPLETED_COUNT
+  versionNumber: 1'
+2020-04-01 16:36:38,394  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_DEVICE' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A056DC
+  primaryName: STR_PAGE_VIEWS_PER_DEVICE
+  versionNumber: 1'
+2020-04-01 16:36:38,398  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGES_WITH_THE_HIGHEST_AVERAGE_STAYING_TIME' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A156E0
+  primaryName: STR_PAGES_WITH_THE_HIGHEST_AVERAGE_STAYING_TIME
+  versionNumber: 1'
+2020-04-01 16:36:38,403  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_JOURNEY_STAGE_STATISTICS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A256E4
+  primaryName: STR_JOURNEY_STAGE_STATISTICS
+  versionNumber: 1'
+2020-04-01 16:36:38,407  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_CONTENTS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A356E8
+  primaryName: STR_TOP_TRAFFIC_SOURCE_CONTENTS
+  versionNumber: 1'
+2020-04-01 16:36:38,413  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_ERRONEOUS_INTERFACES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A456EC
+  primaryName: STR_MOST_ERRONEOUS_INTERFACES
+  versionNumber: 1'
+2020-04-01 16:36:38,417  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_DAY_OF_WEEK' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A656F0
+  primaryName: STR_PAGE_VIEWS_PER_DAY_OF_WEEK
+  versionNumber: 1'
+2020-04-01 16:36:38,421  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_ACCESSED_SOCIAL_ORIGIN' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A756F4
+  primaryName: STR_MOST_ACCESSED_SOCIAL_ORIGIN
+  versionNumber: 1'
+2020-04-01 16:36:38,428  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_NOT_FOUND_SEARCHED_QUERIES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A756F8
+  primaryName: STR_MOST_NOT_FOUND_SEARCHED_QUERIES
+  versionNumber: 1'
+2020-04-01 16:36:38,432  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_ACCESSED_REFERRAL_ORIGIN' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A856FC
+  primaryName: STR_MOST_ACCESSED_REFERRAL_ORIGIN
+  versionNumber: 1'
+2020-04-01 16:36:38,438  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_ACTIVITY_LIST' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3A95700
+  primaryName: STR_ACTIVITY_LIST
+  versionNumber: 1'
+2020-04-01 16:36:38,444  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_SOURCES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3AA5704
+  primaryName: STR_TOP_TRAFFIC_SOURCE_SOURCES
+  versionNumber: 1'
+2020-04-01 16:36:38,648  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_JOURNEY_STATISTICS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3AB5708
+  primaryName: STR_JOURNEY_STATISTICS
+  versionNumber: 1'
+2020-04-01 16:36:38,653  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEY_STAGES_AVERAGE_DURATION' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3AC570C
+  primaryName: STR_REPORT_JOURNEY_STAGES_AVERAGE_DURATION
+  versionNumber: 1'
+2020-04-01 16:36:38,656  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_ACCESSED_PAGE_TRAFFIC' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3AD5710
+  primaryName: STR_MOST_ACCESSED_PAGE_TRAFFIC
+  versionNumber: 1'
+2020-04-01 16:36:38,662  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_AVERAGE_DURATION_TOTAL' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3AF5714
+  primaryName: STR_REPORT_JOURNEYS_AVERAGE_DURATION_TOTAL
+  versionNumber: 1'
+2020-04-01 16:36:38,665  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_GEOLOCATION' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B05718
+  primaryName: STR_PAGE_VIEWS_PER_GEOLOCATION
+  versionNumber: 1'
+2020-04-01 16:36:38,668  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_COMMENTED_CONTENT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B2571C
+  primaryName: STR_MOST_COMMENTED_CONTENT
+  versionNumber: 1'
+2020-04-01 16:36:38,672  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_MOST_SEARCHED_QUERIES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B35720
+  primaryName: STR_MOST_SEARCHED_QUERIES
+  versionNumber: 1'
+2020-04-01 16:36:38,678  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_SLOWEST_AVG_INTERFACES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B35724
+  primaryName: STR_SLOWEST_AVG_INTERFACES
+  versionNumber: 1'
+2020-04-01 16:36:38,682  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_GROUP' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B45728
+  primaryName: STR_PAGE_VIEWS_PER_GROUP
+  versionNumber: 1'
+2020-04-01 16:36:38,685  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_MEDIUMS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B6572C
+  primaryName: STR_TOP_TRAFFIC_SOURCE_MEDIUMS
+  versionNumber: 1'
+2020-04-01 16:36:38,689  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_ABANDONED_COUNT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B65730
+  primaryName: STR_REPORT_JOURNEYS_ABANDONED_COUNT
+  versionNumber: 1'
+2020-04-01 16:36:38,696  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_COMPLETED' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B75734
+  primaryName: STR_REPORT_JOURNEYS_COMPLETED
+  versionNumber: 1'
+2020-04-01 16:36:38,701  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B85738
+  primaryName: STR_PAGE_VIEWS
+  versionNumber: 1'
+2020-04-01 16:36:38,709  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_SLOWEST_AVG_PAGES' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3B9573C
+  primaryName: STR_SLOWEST_AVG_PAGES
+  versionNumber: 1'
+2020-04-01 16:36:38,715  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_URL' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3BA5740
+  primaryName: STR_PAGE_VIEWS_PER_URL
+  versionNumber: 1'
+2020-04-01 16:36:38,719  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_TERMS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3BB5744
+  primaryName: STR_TOP_TRAFFIC_SOURCE_TERMS
+  versionNumber: 1'
+2020-04-01 16:36:38,727  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_PAGE_VIEW' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3BC5748
+  primaryName: STR_STANDARD_PAGE_VIEW
+  versionNumber: 1'
+2020-04-01 16:36:38,733  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_USER_BEHAVIOUR' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3BE574C
+  primaryName: STR_STANDARD_USER_BEHAVIOUR
+  versionNumber: 1'
+2020-04-01 16:36:38,738  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_CONTENT' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3C05750
+  primaryName: STR_STANDARD_CONTENT
+  versionNumber: 1'
+2020-04-01 16:36:38,747  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_TRAFFIC' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3C15754
+  primaryName: STR_STANDARD_TRAFFIC
+  versionNumber: 1'
+2020-04-01 16:36:38,754  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_TROUBLESHOOTING' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3C25758
+  primaryName: STR_STANDARD_TROUBLESHOOTING
+  versionNumber: 1'
+2020-04-01 16:36:38,764  Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added content version: 
+STR_STANDARD_JOURNEY_ANALYSIS' - Description: 'Added content version: 
+  id: 2C998086713678D401713699F3C3575C
+  primaryName: STR_STANDARD_JOURNEY_ANALYSIS
+  versionNumber: 1'
+2020-04-01 16:36:39,596  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:36:40,729  Category: Deployment - Type: Update Module - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated module: Pasa HotsiteABC' - Description: 'Updated module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 16:36:40,732  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:36:40,733  Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 16:38:57,282 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_CHANNEL_ACCESS' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369C2DDA6387
+  interface id: lumis.service.portalmanagement.channelacl.administration
+  display name: STR_CHANNEL_ACCESS
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 16:39:04,533 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_EDIT_CHANNEL' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369C4A3C638A
+  interface id: lumis.service.portalmanagement.channel.edit
+  display name: STR_EDIT_CHANNEL
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 16:39:23,237 172.25.0.1 Category: Structure - Type: Update Channel - User: 00000000D00000000000000000000001 admin - Title: 'Updated channel: Pasa HotsiteABC' - Description: 'Updated channel:
+  id: 402880956EFEC290016EFF50C7374199
+  name: Pasa HotsiteABC
+  description: null'
+2020-04-01 16:39:23,745 172.25.0.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.channel.edit
+  interface name: Editar Canal
+  service id: lumis.service.portalmanagement.channel
+  service name: Gerenciador de Canais
+'
+2020-04-01 16:39:35,280 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADD_ACCESS' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369CC266647C
+  interface id: lumis.service.portalmanagement.genericacl.addPrincipal
+  display name: STR_ADD_ACCESS
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 16:39:43,472 172.25.0.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.genericacl.addPrincipal
+  interface name: Adicionar
+  service id: lumis.service.portalmanagement.genericacl
+  service name: Gerenciador de Acesso Genérico
+'
+2020-04-01 16:39:49,612 172.25.0.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.channelacl.administration
+  interface name: Controle de Acesso do Canal
+  service id: lumis.service.portalmanagement.channelacl
+  service name: Gerenciador de Acesso a Canais
+'
+2020-04-01 16:41:52,420 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_WORKFLOW_STATUS_VIEW' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369ED9FE2F47
+  interface id: lumis.service.autoadministration.workflowStatus
+  display name: STR_WORKFLOW_STATUS_VIEW
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C9E745EF'
+2020-04-01 16:42:00,192 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_LAST_CONTENTS' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EF87B33BE
+  interface id: lumis.service.autoadministration.lastContents
+  display name: STR_LAST_CONTENTS
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C9E745EF'
+2020-04-01 16:42:00,206 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMIN_TREE' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EF88833BF
+  interface id: lumis.service.autoadministration.adminTree
+  display name: STR_ADMIN_TREE
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C9E745EF'
+2020-04-01 16:42:00,467 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_FORM_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EF99133C0
+  interface id: lumis.service.formbuilder.formAdministration
+  display name: STR_FORM_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF6BD6646C4F'
+2020-04-01 16:42:00,480 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EF99A33C1
+  interface id: lumis.service.document.administration
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C75041A1'
+2020-04-01 16:42:00,573 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EF9E733C2
+  interface id: br.com.pasa.hotsiteabc.service.pasaescritorios.administration
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF7CBBE079B9'
+2020-04-01 16:42:00,581 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EFA0233C3
+  interface id: lumis.service.highlight.administration
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF5E12A2602C'
+2020-04-01 16:42:00,717 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EFA2A33C4
+  interface id: lumis.service.media.administration
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C78A41AC'
+2020-04-01 16:42:00,759 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EFAB433C5
+  interface id: lumis.service.htmlcontent.administration
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF569DE35A64'
+2020-04-01 16:42:00,767 172.25.0.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 2C998086713678D40171369EFABC33C6
+  interface id: lumis.service.htmlinjector.admin
+  display name: STR_ADMINISTRATION
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 402880956EFEC290016EFF50C87642B0'
+2020-04-01 16:42:46,162 172.25.0.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.channelacl.administration
+  interface name: Controle de Acesso do Canal
+  service id: lumis.service.portalmanagement.channelacl
+  service name: Gerenciador de Acesso a Canais
+'
+2020-04-01 18:00:04,736  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:04,970  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:04,988  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,006  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,030  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,054  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,079  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,101  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:05,124  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 18:00:06,262  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C9B80897136E642017136E679630143
+  Name: default'
+2020-04-01 18:00:06,280  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C9B80897136E642017136E679630144
+  URL: localhost:8080/portal
+  Website: default(2C9B80897136E642017136E679630143)'
+2020-04-01 18:00:06,285  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C9B80897136E642017136E679640145
+  URL: localhost:8443/portal
+  Website: default(2C9B80897136E642017136E679630143)'
+2020-04-01 18:00:06,305  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C9B80897136E642017136E679630143
+  Name: default'
+2020-04-01 18:05:45,413  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 18:05:45,421  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 18:05:45,437  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 18:05:45,444  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 18:05:45,451  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 18:05:45,461  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 18:05:45,469  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 18:05:45,479  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 18:05:47,205  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 18:05:49,957  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 18:05:50,695  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 18:05:52,669  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 18:05:52,680  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 18:05:52,687  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 18:05:53,872  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 18:05:54,287  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 18:05:55,167  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:00:58,828  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,063  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,079  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,096  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,114  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,134  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,154  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,174  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:00:59,243  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 19:01:01,431  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C9C808971371DF40171371E3F620143
+  Name: default'
+2020-04-01 19:01:01,450  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C9C808971371DF40171371E3F620144
+  URL: localhost:8080/portal
+  Website: default(2C9C808971371DF40171371E3F620143)'
+2020-04-01 19:01:01,457  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C9C808971371DF40171371E3F630145
+  URL: localhost:8443/portal
+  Website: default(2C9C808971371DF40171371E3F620143)'
+2020-04-01 19:01:01,479  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C9C808971371DF40171371E3F620143
+  Name: default'
+2020-04-01 19:30:10,029  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,399  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,418  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,438  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,470  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,488  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,522  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,544  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:10,560  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 19:30:12,580  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C9E8088713738D201713738F7D20143
+  Name: default'
+2020-04-01 19:30:12,590  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C9E8088713738D201713738F7D30144
+  URL: localhost:8080/portal
+  Website: default(2C9E8088713738D201713738F7D20143)'
+2020-04-01 19:30:12,592  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C9E8088713738D201713738F7D30145
+  URL: localhost:8443/portal
+  Website: default(2C9E8088713738D201713738F7D20143)'
+2020-04-01 19:30:12,607  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C9E8088713738D201713738F7D20143
+  Name: default'
+2020-04-01 19:35:16,577  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 19:35:16,587  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 19:35:16,603  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 19:35:16,619  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 19:35:16,643  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 19:35:16,662  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 19:35:16,687  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 19:35:16,694  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 19:35:18,081  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 19:35:19,729  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 19:35:20,510  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:35:21,862  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:35:21,866  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 19:35:21,870  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 19:35:23,314  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:35:23,992  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 19:35:24,666  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:48:35,776  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,881  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,887  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,893  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,900  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,907  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,914  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,920  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:35,927  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 19:48:37,776  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C9F8087713749A101713749D4CB0143
+  Name: default'
+2020-04-01 19:48:37,781  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C9F8087713749A101713749D4CB0144
+  URL: localhost:8080/portal
+  Website: default(2C9F8087713749A101713749D4CB0143)'
+2020-04-01 19:48:37,788  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C9F8087713749A101713749D4CB0145
+  URL: localhost:8443/portal
+  Website: default(2C9F8087713749A101713749D4CB0143)'
+2020-04-01 19:48:37,795  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C9F8087713749A101713749D4CB0143
+  Name: default'
+2020-04-01 19:54:07,107  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 19:54:07,117  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 19:54:07,125  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 19:54:07,134  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 19:54:07,141  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 19:54:07,148  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 19:54:07,156  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 19:54:07,167  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 19:54:08,940  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 19:54:10,431  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 19:54:11,203  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:54:13,107  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:54:13,121  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 19:54:13,127  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 19:54:15,642  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 19:54:16,094  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 19:54:16,843  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 20:24:45,179  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,417  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,425  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,435  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,446  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,457  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,467  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,482  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:46,490  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 20:24:50,612  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028B08971376A8A0171376AFCAC0143
+  Name: default'
+2020-04-01 20:24:50,618  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028B08971376A8A0171376AFCAD0144
+  URL: localhost:8080/portal
+  Website: default(4028B08971376A8A0171376AFCAC0143)'
+2020-04-01 20:24:50,620  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028B08971376A8A0171376AFCAD0145
+  URL: localhost:8443/portal
+  Website: default(4028B08971376A8A0171376AFCAC0143)'
+2020-04-01 20:24:51,895  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028B08971376A8A0171376AFCAC0143
+  Name: default'
+2020-04-01 20:51:54,919  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,080  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,092  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,103  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,115  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,124  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,138  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,150  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:55,162  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 20:51:57,237  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028C089713783A601713783CEAA0143
+  Name: default'
+2020-04-01 20:51:57,245  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028C089713783A601713783CEAA0144
+  URL: localhost:8080/portal
+  Website: default(4028C089713783A601713783CEAA0143)'
+2020-04-01 20:51:57,248  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028C089713783A601713783CEAA0145
+  URL: localhost:8443/portal
+  Website: default(4028C089713783A601713783CEAA0143)'
+2020-04-01 20:51:57,261  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028C089713783A601713783CEAA0143
+  Name: default'
+2020-04-01 21:00:44,703  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 21:00:44,708  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 21:00:44,714  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 21:00:44,721  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 21:00:44,729  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 21:00:44,733  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 21:00:44,739  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 21:00:44,743  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 21:00:46,459  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 21:00:48,067  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 21:00:48,735  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 21:00:49,912  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 21:00:49,916  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 21:00:49,920  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 21:00:51,760  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 21:00:52,890  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 21:00:53,932  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 21:09:04,971 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_DEPLOY_MODULE' - Description: 'Added service interface instance
+  id: 4028C08971378CDB017137937B5F1D02
+  interface id: lumis.service.portalmanagement.deployment.deployModule
+  display name: STR_DEPLOY_MODULE
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: 402881B25E952535015E95262D8201EF'
+2020-04-01 21:09:06,925 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_EDIT_IMAGE' - Description: 'Added service interface instance
+  id: 4028C08971378CDB0171379384E91D04
+  interface id: lumis.service.doui.fileupload.editimage.editimage
+  display name: STR_EDIT_IMAGE
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 21:10:16,924 192.168.64.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  service instance id: 402881B25E952535015E95262D8201EF
+  service instance name: Gerenciador de Módulos
+  interface id: lumis.service.portalmanagement.deployment.deployModule
+  interface name: Deploy
+  service id: lumis.service.portalmanagement.deployment
+  service name: Gerenciador de Instalações
+'
+2020-04-01 21:10:17,014 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_DEPLOYMENT_SUMMARY' - Description: 'Added service interface instance
+  id: 4028C08971378CDB0171379496B22056
+  interface id: lumis.service.portalmanagement.deployment.deploymentSummary
+  display name: STR_DEPLOYMENT_SUMMARY
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: 402881B25E952535015E95262D8201EF'
+2020-04-01 21:11:54,599 192.168.64.1 Category: Deployment - Type: Add Module - User: 00000000D00000000000000000000001 admin - Title: 'Added module: Pasa HotsiteABC' - Description: 'Added module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 21:11:54,622 192.168.64.1 Category: Deployment - Type: Add Component - User: 00000000D00000000000000000000001 admin - Title: 'Added component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Added component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:11:54,623 192.168.64.1 Category: Deployment - Type: Add Component - User: 00000000D00000000000000000000001 admin - Title: 'Added component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Added component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:11:54,915 192.168.64.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  service instance id: 402881B25E952535015E95262D8201EF
+  service instance name: Gerenciador de Módulos
+  interface id: lumis.service.portalmanagement.deployment.deploymentSummary
+  interface name: Resumo
+  service id: lumis.service.portalmanagement.deployment
+  service name: Gerenciador de Instalações
+'
+2020-04-01 21:11:55,023 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_DETAILS' - Description: 'Added service interface instance
+  id: 4028C08971378CDB017137961574227F
+  interface id: lumis.service.portalmanagement.interactiveprocess.details
+  display name: STR_DETAILS
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 21:13:30,781 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:13:30,797 192.168.64.1 Category: Deployment - Type: Update Module - User: 00000000D00000000000000000000001 admin - Title: 'Updated module: Pasa HotsiteABC' - Description: 'Updated module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 21:13:30,798 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:13:37,938 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:13:38,445 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:14:20,619 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_CONTENT_BY_CHANNEL' - Description: 'Added content version: 
+  id: 4028C08971378CDB017137983233247C
+  primaryName: STR_CONTENT_BY_CHANNEL
+  versionNumber: 1'
+2020-04-01 21:14:20,626 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_CONTENT_BY_TYPE' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379832472481
+  primaryName: STR_CONTENT_BY_TYPE
+  versionNumber: 1'
+2020-04-01 21:14:21,536 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_LIKED_CONTENT' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798337C24D4
+  primaryName: STR_MOST_LIKED_CONTENT
+  versionNumber: 1'
+2020-04-01 21:14:21,929 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_JOURNEY_USERS_FLOW_STATISTICS' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798337F24D8
+  primaryName: STR_JOURNEY_USERS_FLOW_STATISTICS
+  versionNumber: 1'
+2020-04-01 21:14:21,937 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_SLOWEST_AVG_INTERFACE_TRANSFORMATION' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798338124DC
+  primaryName: STR_SLOWEST_AVG_INTERFACE_TRANSFORMATION
+  versionNumber: 1'
+2020-04-01 21:14:22,137 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_TIME_OF_DAY' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798338624E0
+  primaryName: STR_PAGE_VIEWS_PER_TIME_OF_DAY
+  versionNumber: 1'
+2020-04-01 21:14:22,235 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_VIEWED_CONTENT' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798338924E4
+  primaryName: STR_MOST_VIEWED_CONTENT
+  versionNumber: 1'
+2020-04-01 21:14:22,345 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_AVERAGE_DURATION' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798338C24E8
+  primaryName: STR_REPORT_JOURNEYS_AVERAGE_DURATION
+  versionNumber: 1'
+2020-04-01 21:14:22,452 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_CAMPAIGNS' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798339224EC
+  primaryName: STR_TOP_TRAFFIC_SOURCE_CAMPAIGNS
+  versionNumber: 1'
+2020-04-01 21:14:22,457 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_STARTED_COUNT' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798339624F0
+  primaryName: STR_REPORT_JOURNEYS_STARTED_COUNT
+  versionNumber: 1'
+2020-04-01 21:14:22,461 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_COMPLETED_COUNT' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798339824F4
+  primaryName: STR_REPORT_JOURNEYS_COMPLETED_COUNT
+  versionNumber: 1'
+2020-04-01 21:14:22,464 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_DEVICE' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798339A24F8
+  primaryName: STR_PAGE_VIEWS_PER_DEVICE
+  versionNumber: 1'
+2020-04-01 21:14:22,469 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGES_WITH_THE_HIGHEST_AVERAGE_STAYING_TIME' - Description: 'Added content version: 
+  id: 4028C08971378CDB01713798339D24FC
+  primaryName: STR_PAGES_WITH_THE_HIGHEST_AVERAGE_STAYING_TIME
+  versionNumber: 1'
+2020-04-01 21:14:22,472 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_JOURNEY_STAGE_STATISTICS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833A02500
+  primaryName: STR_JOURNEY_STAGE_STATISTICS
+  versionNumber: 1'
+2020-04-01 21:14:22,478 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_CONTENTS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833A42504
+  primaryName: STR_TOP_TRAFFIC_SOURCE_CONTENTS
+  versionNumber: 1'
+2020-04-01 21:14:22,483 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_ERRONEOUS_INTERFACES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833A72508
+  primaryName: STR_MOST_ERRONEOUS_INTERFACES
+  versionNumber: 1'
+2020-04-01 21:14:22,488 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_DAY_OF_WEEK' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833A9250C
+  primaryName: STR_PAGE_VIEWS_PER_DAY_OF_WEEK
+  versionNumber: 1'
+2020-04-01 21:14:22,491 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_ACCESSED_SOCIAL_ORIGIN' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833AB2510
+  primaryName: STR_MOST_ACCESSED_SOCIAL_ORIGIN
+  versionNumber: 1'
+2020-04-01 21:14:22,495 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_NOT_FOUND_SEARCHED_QUERIES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833AD2514
+  primaryName: STR_MOST_NOT_FOUND_SEARCHED_QUERIES
+  versionNumber: 1'
+2020-04-01 21:14:22,498 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_ACCESSED_REFERRAL_ORIGIN' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833AF2518
+  primaryName: STR_MOST_ACCESSED_REFERRAL_ORIGIN
+  versionNumber: 1'
+2020-04-01 21:14:22,502 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_ACTIVITY_LIST' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833B1251C
+  primaryName: STR_ACTIVITY_LIST
+  versionNumber: 1'
+2020-04-01 21:14:22,506 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_SOURCES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833B22520
+  primaryName: STR_TOP_TRAFFIC_SOURCE_SOURCES
+  versionNumber: 1'
+2020-04-01 21:14:22,511 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_JOURNEY_STATISTICS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833B42524
+  primaryName: STR_JOURNEY_STATISTICS
+  versionNumber: 1'
+2020-04-01 21:14:22,515 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEY_STAGES_AVERAGE_DURATION' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833B72528
+  primaryName: STR_REPORT_JOURNEY_STAGES_AVERAGE_DURATION
+  versionNumber: 1'
+2020-04-01 21:14:22,518 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_ACCESSED_PAGE_TRAFFIC' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833B9252C
+  primaryName: STR_MOST_ACCESSED_PAGE_TRAFFIC
+  versionNumber: 1'
+2020-04-01 21:14:22,522 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_AVERAGE_DURATION_TOTAL' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833BB2530
+  primaryName: STR_REPORT_JOURNEYS_AVERAGE_DURATION_TOTAL
+  versionNumber: 1'
+2020-04-01 21:14:22,526 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_GEOLOCATION' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833BC2534
+  primaryName: STR_PAGE_VIEWS_PER_GEOLOCATION
+  versionNumber: 1'
+2020-04-01 21:14:22,529 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_COMMENTED_CONTENT' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833BE2538
+  primaryName: STR_MOST_COMMENTED_CONTENT
+  versionNumber: 1'
+2020-04-01 21:14:22,532 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_MOST_SEARCHED_QUERIES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C0253C
+  primaryName: STR_MOST_SEARCHED_QUERIES
+  versionNumber: 1'
+2020-04-01 21:14:22,536 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_SLOWEST_AVG_INTERFACES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C12540
+  primaryName: STR_SLOWEST_AVG_INTERFACES
+  versionNumber: 1'
+2020-04-01 21:14:22,539 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_GROUP' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C32544
+  primaryName: STR_PAGE_VIEWS_PER_GROUP
+  versionNumber: 1'
+2020-04-01 21:14:22,542 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_MEDIUMS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C42548
+  primaryName: STR_TOP_TRAFFIC_SOURCE_MEDIUMS
+  versionNumber: 1'
+2020-04-01 21:14:22,545 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_ABANDONED_COUNT' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C6254C
+  primaryName: STR_REPORT_JOURNEYS_ABANDONED_COUNT
+  versionNumber: 1'
+2020-04-01 21:14:22,548 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_REPORT_JOURNEYS_COMPLETED' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C72550
+  primaryName: STR_REPORT_JOURNEYS_COMPLETED
+  versionNumber: 1'
+2020-04-01 21:14:22,552 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833C92554
+  primaryName: STR_PAGE_VIEWS
+  versionNumber: 1'
+2020-04-01 21:14:22,555 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_SLOWEST_AVG_PAGES' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833CC2558
+  primaryName: STR_SLOWEST_AVG_PAGES
+  versionNumber: 1'
+2020-04-01 21:14:22,558 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_PAGE_VIEWS_PER_URL' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833CD255C
+  primaryName: STR_PAGE_VIEWS_PER_URL
+  versionNumber: 1'
+2020-04-01 21:14:22,561 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_TOP_TRAFFIC_SOURCE_TERMS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833D02560
+  primaryName: STR_TOP_TRAFFIC_SOURCE_TERMS
+  versionNumber: 1'
+2020-04-01 21:14:22,565 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_PAGE_VIEW' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833D32564
+  primaryName: STR_STANDARD_PAGE_VIEW
+  versionNumber: 1'
+2020-04-01 21:14:22,569 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_USER_BEHAVIOUR' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833D52568
+  primaryName: STR_STANDARD_USER_BEHAVIOUR
+  versionNumber: 1'
+2020-04-01 21:14:22,723 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_CONTENT' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833D7256C
+  primaryName: STR_STANDARD_CONTENT
+  versionNumber: 1'
+2020-04-01 21:14:22,732 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_TRAFFIC' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833D92570
+  primaryName: STR_STANDARD_TRAFFIC
+  versionNumber: 1'
+2020-04-01 21:14:22,739 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_TROUBLESHOOTING' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833DB2574
+  primaryName: STR_STANDARD_TROUBLESHOOTING
+  versionNumber: 1'
+2020-04-01 21:14:22,747 192.168.64.1 Category: Content - Type: Add Content Version - User: 00000000D00000000000000000000001 admin - Title: 'Added content version: 
+STR_STANDARD_JOURNEY_ANALYSIS' - Description: 'Added content version: 
+  id: 4028C08971378CDB0171379833DC2578
+  primaryName: STR_STANDARD_JOURNEY_ANALYSIS
+  versionNumber: 1'
+2020-04-01 21:14:23,727 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:14:24,602 192.168.64.1 Category: Deployment - Type: Update Module - User: 00000000D00000000000000000000001 admin - Title: 'Updated module: Pasa HotsiteABC' - Description: 'Updated module: 
+  id: br.com.pasa.hotsiteabc
+  Name: Pasa HotsiteABC'
+2020-04-01 21:14:24,604 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.service.pasaescritorios' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.service.pasaescritorios
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:14:24,606 192.168.64.1 Category: Deployment - Type: Update Component - User: 00000000D00000000000000000000001 admin - Title: 'Updated component: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc' - Description: 'Updated component: 
+  id: br.com.pasa.hotsiteabc.structure.pasa-hotsiteabc
+  Version: 1.0.0.0
+  Module: Pasa HotsiteABC(br.com.pasa.hotsiteabc)'
+2020-04-01 21:16:27,420 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_EDIT_CHANNEL' - Description: 'Added service interface instance
+  id: 4028C08971378CDB0171379A3D6D3193
+  interface id: lumis.service.portalmanagement.channel.edit
+  display name: STR_EDIT_CHANNEL
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 21:16:55,636 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_CHANNEL_ACCESS' - Description: 'Added service interface instance
+  id: 4028C08971378CDB0171379AAB8C3199
+  interface id: lumis.service.portalmanagement.channelacl.administration
+  display name: STR_CHANNEL_ACCESS
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 21:16:59,084 192.168.64.1 Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000001 admin - Title: 'Added service interface instance: STR_ADD_ACCESS' - Description: 'Added service interface instance
+  id: 4028C08971378CDB0171379AB944319C
+  interface id: lumis.service.portalmanagement.genericacl.addPrincipal
+  display name: STR_ADD_ACCESS
+  page id: LumisBlankPage
+  page name: STR_BLANK_PAGE
+  service instance id: null'
+2020-04-01 21:17:04,351 192.168.64.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.genericacl.addPrincipal
+  interface name: Adicionar
+  service id: lumis.service.portalmanagement.genericacl
+  service name: Gerenciador de Acesso Genérico
+'
+2020-04-01 21:17:08,284 192.168.64.1 Category: DOUI - Type: Execute Process Action - User: 00000000D00000000000000000000001 admin - Title: 'Process action executed: commit' - Description: 'Process action executed: 
+  process action id: commit
+  process action name: null
+  interface id: lumis.service.portalmanagement.channelacl.administration
+  interface name: Controle de Acesso do Canal
+  service id: lumis.service.portalmanagement.channelacl
+  service name: Gerenciador de Acesso a Canais
+'
+2020-04-01 21:56:11,637  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,942  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,947  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,952  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,957  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,963  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,969  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,975  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:11,982  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 21:56:14,202  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028D0897137BE80017137BEA8F30143
+  Name: default'
+2020-04-01 21:56:14,207  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028D0897137BE80017137BEA8F30144
+  URL: localhost:8080/portal
+  Website: default(4028D0897137BE80017137BEA8F30143)'
+2020-04-01 21:56:14,208  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028D0897137BE80017137BEA8F30145
+  URL: localhost:8443/portal
+  Website: default(4028D0897137BE80017137BEA8F30143)'
+2020-04-01 21:56:14,214  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028D0897137BE80017137BEA8F30143
+  Name: default'
+2020-04-01 22:25:52,274  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,378  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,384  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,390  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,395  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,401  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,408  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,414  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,421  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 22:25:52,967  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 4028F0897137D9BB017137D9CD2F0143
+  Name: default'
+2020-04-01 22:25:52,970  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 4028F0897137D9BB017137D9CD2F0144
+  URL: localhost:8080/portal
+  Website: default(4028F0897137D9BB017137D9CD2F0143)'
+2020-04-01 22:25:52,972  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 4028F0897137D9BB017137D9CD300145
+  URL: localhost:8443/portal
+  Website: default(4028F0897137D9BB017137D9CD2F0143)'
+2020-04-01 22:25:52,978  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 4028F0897137D9BB017137D9CD2F0143
+  Name: default'
+2020-04-01 22:29:10,742  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 22:29:10,747  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 22:29:10,849  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 22:29:10,852  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 22:29:10,856  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 22:29:10,859  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 22:29:10,862  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 22:29:10,865  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 22:29:11,808  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 22:29:13,076  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 22:29:13,373  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 22:29:14,592  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 22:29:14,596  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 22:29:14,599  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 22:29:15,274  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 22:29:15,625  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 22:29:16,105  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 23:11:21,431  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,052  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,060  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,066  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,071  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,080  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,086  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,094  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:22,102  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-01 23:11:23,021  Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 402800897138035D0171380375830143
+  Name: default'
+2020-04-01 23:11:23,031  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 402800897138035D0171380375840144
+  URL: localhost:8080/portal
+  Website: default(402800897138035D0171380375830143)'
+2020-04-01 23:11:23,033  Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 402800897138035D0171380375840145
+  URL: localhost:8443/portal
+  Website: default(402800897138035D0171380375830143)'
+2020-04-01 23:11:23,047  Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 402800897138035D0171380375830143
+  Name: default'
+2020-04-01 23:14:51,828  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-01 23:14:51,831  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-01 23:14:51,998  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-01 23:14:52,002  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-01 23:14:52,005  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 23:14:52,009  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-01 23:14:52,012  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-01 23:14:52,017  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-01 23:14:53,019  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-01 23:14:54,245  Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-01 23:14:54,576  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 23:14:55,560  Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 23:14:55,563  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 23:14:55,565  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-01 23:14:56,416  Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-01 23:14:56,859  Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-01 23:14:57,301  Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'

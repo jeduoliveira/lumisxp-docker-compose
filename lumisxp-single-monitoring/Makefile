@@ -1,8 +1,12 @@
 build:
 	docker-compose build 
 
-up: build
+full: build
 	docker-compose up -d 
+
+up:
+	docker-compose up -d 
+
 
 down:
 	docker-compose down --volume

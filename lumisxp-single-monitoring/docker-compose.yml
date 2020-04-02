@@ -10,15 +10,19 @@ services:
       - "ES_JAVA_OPTS=-Xms512M -Xmx512M"
       - http.cors.enabled=true
       - http.cors.allow-origin=*
-      - network.host=_eth0_
-      - "action.auto_create_index= -lumisportal-*,+*"
+      - network.host=0.0.0.0
+      - "action.auto_create_index= -lumisportal-*,+*"  
+      - xpack.monitoring.collection.enabled=true    
     volumes:
       - type: volume
         source: elastic_data
         target: /usr/share/elasticsearch/data
       - type: volume
         source: lumis_analysis
-        target: /usr/share/elasticsearch/config/lumis-analysis          
+        target: /usr/share/elasticsearch/config/lumis-analysis        
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime      
     ports: ['9200:9200', '9300:9300']
     networks: ['monitoring']
     ulimits:
@@ -28,8 +32,8 @@ services:
         hard: -1
     cap_add:
       - ALL
-    healthcheck:      
-      test: curl localhost:9200/_cluster/health >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
+    healthcheck:            
+      test: ["CMD", "curl","-s" ,"-f", "http://localhost:9200/_cat/health"]
       interval: 30s
       timeout: 30s
       retries: 10
@@ -39,36 +43,127 @@ services:
     ports: ['5601:5601']
     depends_on: ['elasticsearch']        
     networks: ['monitoring']
+    volumes:      
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
     healthcheck:
       test: curl https://localhost:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
       interval: 30s
       timeout: 10s
       retries: 10
 
-  metricbeat:    
-    build: ./docker/metricbeat
+  metricbeat:
+    build: 
+      context: docker/metricbeat
+      args:
+        ELK_VERSION: $ELK_VERSION
     command: ["--strict.perms=false", "-system.hostfs=/hostfs", "-e"]
     user: root
+    environment:
+      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}
+      - KIBANA_HOST=${KIBANA_HOST:-node1}
     volumes:
-      - /proc:/hostfs/proc:ro
-      - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
-      - /:/hostfs:ro
-      - /var/run/docker.sock:/var/run/docker.sock      
-      - metricbeat:/usr/share/metricbeat/data    
-    depends_on: ['lumisxp', 'kibana', 'elasticsearch']
+      - type: bind
+        source: /proc
+        target: /hostfs/proc
+      - type: bind
+        source: /sys/fs/cgroup
+        target: /hostfs/sys/fs/cgroup
+      - type: bind
+        source: /
+        target: /hostfs
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock      
+      - type: volume
+        source: metricbeat
+        target: /usr/share/metricbeat/data    
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+    depends_on: ['kibana', 'elasticsearch']
     networks: ['monitoring']  
+    restart: on-failure
     healthcheck:
       test: metricbeat test config
       interval: 30s
       timeout: 15s
-    
+  
+  filebeat:
+    build: 
+      context: docker/filebeat
+      args:
+        ELK_VERSION: $ELK_VERSION
+    command: ["--strict.perms=false", "-e"]
+    user: root
+    networks: ['monitoring'] 
+    restart: on-failure     
+    links: ['logstash']
+    volumes:
+      - type: volume
+        source: filebeat
+        target: /usr/share/filebeat/data
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock 
+      - type: bind
+        source: /var/lib/docker/containers
+        target: /var/lib/docker/containers
+      - type: bind
+        source: ./logs/apache2
+        target: /var/log/apache2
+      - type: bind
+        source: ./logs/lumisportal
+        target: /var/log/lumisportal  
+      - type: bind
+        source: ./logs/mysql
+        target: /var/log/mysql
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+    environment:
+      - LOGSTASH_HOST=${LOGSTASH_HOST:-node1}
+      - KIBANA_HOST=${KIBANA_HOST:-node1}      
+      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}      
+
+  logstash:
+    build:
+      context: docker/logstash
+      args:
+        ELK_VERSION: $ELK_VERSION
+    command: [ "-e"]
+    ports:
+      - "5000:5000/tcp"
+      - "5000:5000/udp"
+      - "9600:9600"
+    environment:
+      - LS_JAVA_OPTS=-Xmx256m -Xms256m
+      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}    
+    networks: ['monitoring'] 
+    depends_on: ['kibana', 'elasticsearch']
+    volumes:      
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+
   apm-server:
-    build: ./docker/apm-server
+    build: 
+      context: docker/apm-server
+      args:
+        ELK_VERSION: $ELK_VERSION
     ports: ['8200:8200', '8201:8200']
     environment:
-      - apm-server.host=0.0.0.0    
+      - apm-server.host=0.0.0.0
+      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}
+      - KIBANA_HOST=${KIBANA_HOST:-node1}  
     networks: ['monitoring']
     depends_on: ['kibana', 'elasticsearch']    
+    links: ['elasticsearch']
+    volumes:      
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
 
   db:
     image: mysql:5.7    
@@ -81,6 +176,13 @@ services:
       - type: volume
         source: database_data
         target: /var/lib/mysql
+      - type: bind
+        source: ./logs/mysql
+        target: /var/log/mysql/
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+
     ports: ['3306:3306']
     networks: ['monitoring']  
     healthcheck:
@@ -119,9 +221,16 @@ services:
       - type: volume
         source: lumis_htdocs
         target: /usr/local/htdocs
+      - type: bind
+        source: ./logs/lumisportal
+        target: /usr/local/lumisportal/lumisdata/log
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
     depends_on: ['db', 'elasticsearch']
     networks: ['monitoring']
     ports: ['8080:8080', '8009:8009']
+    links: ['apm-server', 'db']
     healthcheck:
       test: curl -sS http://localhost:8080/login.jsp || exit 1
       interval: 60s
@@ -137,11 +246,18 @@ services:
     - type: volume 
       source: lumis_htdocs
       target: /usr/local/apache2/htdocs
+    - type: bind
+      source: ./logs/apache2
+      target: /usr/local/apache2/logs
+    - type: bind
+      source: /etc/localtime
+      target: /etc/localtime
 
 volumes:
   database_data:
   elastic_data:
   metricbeat:
+  filebeat:
   lumis_analysis:
   lumis_data:
   lumis_shared: 
