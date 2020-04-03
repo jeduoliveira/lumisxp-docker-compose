@@ -20416,3 +20416,942 @@ java.io.IOException: Server returned HTTP response code: 401 for URL: http://dow
 2020-04-02 01:48:10,860 WARN       [Portal Clock [lumis.service.search.synonym.lumis.service.search.synonym.SynonymClock]] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Cluster active shards didn't return to 100% in timemout.
 2020-04-02 12:09:04,758 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
 2020-04-02 12:09:12,081 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:17:56,409 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 01:17:56,646 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@483b0690
+2020-04-03 01:17:59,110 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 01:24:21,314 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 01:24:21,348 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 01:24:32,682 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 01:24:39,472 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@63d9e1a
+2020-04-03 01:24:43,201 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 01:24:43,338 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 01:24:58,635 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 01:25:36,450 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:29:26,548 INFO       [QueueProcessor 1 - 2C988088713DA3C901713DA81521009D] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 4 users reindexed.
+2020-04-03 01:29:44,707 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 01:30:14,745 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 01:30:21,545 WARN       [Portal Clock [lumis.service.search.synonym.lumis.service.search.synonym.SynonymClock]] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Cluster active shards didn't return to 100% in timemout.
+2020-04-03 01:34:24,940 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 01:34:54,947 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 01:37:11,916 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:37:11,951 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:37:12,884 INFO       [Thread-37] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 01:37:12,887 INFO       [Thread-37] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:37:12,887 INFO       [Thread-37] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:37:12,895 INFO       [Thread-37] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 01:37:41,565 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 01:37:47,480 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@4a013b23
+2020-04-03 01:37:52,758 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 01:37:53,316 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 01:38:00,843 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 01:40:43,955 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 01:40:51,259 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@406decb2
+2020-04-03 01:40:55,428 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 01:40:55,486 INFO       [ExecutorManager-3] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 01:42:17,874 INFO       [ExecutorManager-3] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 01:42:49,533 ERROR      [ExecutorManager-3] lumis.portal.UnexpectedException - lumis.portal.UnexpectedException created
+lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.event.PortalEventManager.notifyObservers(PortalEventManager.java:408)
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:224)
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:188)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.PortalConfiguration$2.run(PortalConfiguration.java:751)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: ProcessClusterEventTimeoutException[failed to process cluster event (put-mapping) within 30s]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.lambda$onTimeout$0(MasterService.java:134)
+	at java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.elasticsearch.cluster.service.MasterService$Batcher.lambda$onTimeout$1(MasterService.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:835)
+2020-04-03 01:42:49,536 ERROR      [ExecutorManager-3] lumis.portal.PortalConfiguration - Error initializing big data
+java.lang.RuntimeException: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:232)
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:188)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.PortalConfiguration$2.run(PortalConfiguration.java:751)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.event.PortalEventManager.notifyObservers(PortalEventManager.java:408)
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:224)
+	... 9 more
+Caused by: ProcessClusterEventTimeoutException[failed to process cluster event (put-mapping) within 30s]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.lambda$onTimeout$0(MasterService.java:134)
+	at java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.elasticsearch.cluster.service.MasterService$Batcher.lambda$onTimeout$1(MasterService.java:133)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:835)
+2020-04-03 01:42:49,537 ERROR      [Lumis Monitor Processor - 3] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,537 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,537 ERROR      [Lumis Monitor Processor - 2] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,538 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,537 ERROR      [Lumis Monitor Processor - 1] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,538 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,538 ERROR      [Lumis Monitor Processor - 2] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,538 ERROR      [Lumis Monitor Processor - 3] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,551 ERROR 172.24.0.1 admin    [LumisRequest - ajp-nio-8009-exec-6; url: [http://localhost/lumis/service/activitystream/rest/activities.lumis?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10]; login: [admin]] lumis.portal.rest.PortalDefaultExceptionMapper - Exception thrown during call to GET http://localhost/lumis/service/activitystream/rest/activities?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.service.activitystream.ActivityStreamManager.getActivities(ActivityStreamManager.java:311)
+	at lumis.service.activitystream.ActivityStreamResource.getActivities(ActivityStreamResource.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at lumis.portal.rest.BaseRestServletContainer.doFilter(BaseRestServletContainer.java:218)
+	at lumis.portal.rest.RestRootFilter.doFilter(RestRootFilter.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter$RequestWrapper$1.forward(WebServerIntegrationInitFilter.java:319)
+	at jdk.internal.reflect.GeneratedMethodAccessor180.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.bull.javamelody.JspWrapper.invoke(JspWrapper.java:152)
+	at net.bull.javamelody.JdbcWrapper$DelegatingInvocationHandler.invoke(JdbcWrapper.java:294)
+	at com.sun.proxy.$Proxy231.forward(Unknown Source)
+	at lumis.portal.webserver.WebServerIntegrationForwardFilter.doFilter(WebServerIntegrationForwardFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.service.seo.sitemap.SitemapFilter.doFilter(SitemapFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceForwardFilter.doFilter(WebResourceForwardFilter.java:347)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.security.csr.CrossSiteRequestFilter.doFilter(CrossSiteRequestFilter.java:264)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceDiscoveryFilter.doFilter(WebResourceDiscoveryFilter.java:365)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.presentation.PortalModeDiscoveryFilter.doFilter(PortalModeDiscoveryFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:232)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:209)
+	at lumis.service.portalmanagement.monitoring.JavaMelodyCustomMonitoringFilter.doFilter(JavaMelodyCustomMonitoringFilter.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.authentication.AuthenticationFilter.changeThreadNameAndProceed(AuthenticationFilter.java:490)
+	at lumis.portal.authentication.AuthenticationFilter.lambda$doFilter$0(AuthenticationFilter.java:291)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:282)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.monitor.impl.MonitorContextFilter.lambda$doFilter$1(MonitorContextFilter.java:424)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.monitor.impl.MonitorContextFilter.doFilter(MonitorContextFilter.java:402)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.page.cache.PageCacheSSIFilter.doFilter(PageCacheSSIFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalRequestContextFilter.doFilter(PortalRequestContextFilter.java:97)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.filter.EncodingUTF8Filter.doFilter(EncodingUTF8Filter.java:35)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter.doFilter(WebServerIntegrationInitFilter.java:367)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.website.WebsiteDiscoveryFilter.doFilter(WebsiteDiscoveryFilter.java:302)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalConfiguration$RequestInitializer.doFilter(PortalConfiguration.java:155)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:42:49,551 ERROR 172.24.0.1 admin    [LumisRequest - ajp-nio-8009-exec-8; url: [http://localhost/lumis/service/activitystream/rest/activities.lumis?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10]; login: [admin]] lumis.portal.rest.PortalDefaultExceptionMapper - Exception thrown during call to GET http://localhost/lumis/service/activitystream/rest/activities?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: lumis.portal.UnexpectedException: STR_UNEXPECTED_EXCEPTION
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.service.activitystream.ActivityStreamManager.getActivities(ActivityStreamManager.java:311)
+	at lumis.service.activitystream.ActivityStreamResource.getActivities(ActivityStreamResource.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at lumis.portal.rest.BaseRestServletContainer.doFilter(BaseRestServletContainer.java:218)
+	at lumis.portal.rest.RestRootFilter.doFilter(RestRootFilter.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter$RequestWrapper$1.forward(WebServerIntegrationInitFilter.java:319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.bull.javamelody.JspWrapper.invoke(JspWrapper.java:152)
+	at net.bull.javamelody.JdbcWrapper$DelegatingInvocationHandler.invoke(JdbcWrapper.java:294)
+	at com.sun.proxy.$Proxy231.forward(Unknown Source)
+	at lumis.portal.webserver.WebServerIntegrationForwardFilter.doFilter(WebServerIntegrationForwardFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.service.seo.sitemap.SitemapFilter.doFilter(SitemapFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceForwardFilter.doFilter(WebResourceForwardFilter.java:347)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.security.csr.CrossSiteRequestFilter.doFilter(CrossSiteRequestFilter.java:264)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceDiscoveryFilter.doFilter(WebResourceDiscoveryFilter.java:365)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.presentation.PortalModeDiscoveryFilter.doFilter(PortalModeDiscoveryFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:232)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:209)
+	at lumis.service.portalmanagement.monitoring.JavaMelodyCustomMonitoringFilter.doFilter(JavaMelodyCustomMonitoringFilter.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.authentication.AuthenticationFilter.changeThreadNameAndProceed(AuthenticationFilter.java:490)
+	at lumis.portal.authentication.AuthenticationFilter.lambda$doFilter$0(AuthenticationFilter.java:291)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:282)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.monitor.impl.MonitorContextFilter.lambda$doFilter$1(MonitorContextFilter.java:424)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.monitor.impl.MonitorContextFilter.doFilter(MonitorContextFilter.java:402)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.page.cache.PageCacheSSIFilter.doFilter(PageCacheSSIFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalRequestContextFilter.doFilter(PortalRequestContextFilter.java:97)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.filter.EncodingUTF8Filter.doFilter(EncodingUTF8Filter.java:35)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter.doFilter(WebServerIntegrationInitFilter.java:367)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.website.WebsiteDiscoveryFilter.doFilter(WebsiteDiscoveryFilter.java:302)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalConfiguration$RequestInitializer.doFilter(PortalConfiguration.java:155)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:43:24,931 INFO       [Lumis Monitor Processor - 1] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 01:43:46,230 INFO       [Lumis Monitor Processor - 1] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:43:46,251 INFO       [Lumis Monitor Processor - 1] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:43:46,251 ERROR      [Lumis Monitor Processor - 1] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.RuntimeException: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:232)
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:188)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.doInit(ElasticsearchRepository.java:506)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.init(ElasticsearchRepository.java:433)
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:222)
+	... 15 more
+2020-04-03 01:43:46,251 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:43:46,251 ERROR      [Lumis Monitor Processor - 2] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:43:46,254 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:43:46,251 ERROR      [Lumis Monitor Processor - 3] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.IllegalStateException: documentTypeCache is not supposed to be not null
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 01:44:55,084 INFO       [Lumis Monitor Processor - 2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 01:44:55,221 INFO       [Lumis Monitor Processor - 2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 01:45:26,979 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 01:46:10,065 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 01:53:37,968 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:53:37,969 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:53:37,982 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:53:37,983 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:53:39,397 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 01:53:39,401 INFO       [Thread-30] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 01:53:39,401 INFO       [Thread-30] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 01:53:39,423 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 02:11:09,496 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 02:11:09,702 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@6870c3c2
+2020-04-03 02:11:10,931 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 02:17:01,976 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 02:17:01,984 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 02:17:07,403 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 02:17:11,476 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@7298c2d9
+2020-04-03 02:17:13,795 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 02:17:13,809 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 02:17:18,916 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 02:17:47,764 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 02:18:30,392 ERROR      [Portal Clock [lumis.service.portalmanagement.upgrade.upgradeCheckClock]] lumis.service.portalmanagement.upgrade.UpgradeCheckClock - Error checking available versions.
+java.net.UnknownHostException: lumisportal.lumis.com.br: Name or service not known
+	at java.base/java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Request.execute(Request.java:177)
+	at lumis.service.portalmanagement.upgrade.UpgradeUtil.getAllAvailableVersions(UpgradeUtil.java:141)
+	at lumis.service.portalmanagement.upgrade.UpgradeUtil.getAvailableUpgradeVersions(UpgradeUtil.java:116)
+	at lumis.service.portalmanagement.upgrade.UpgradeCheckClock.doTick(UpgradeCheckClock.java:33)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 02:21:55,390 INFO       [QueueProcessor 1 - 2C998088713DD3E701713DD821DC00A3] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 5 users reindexed.
+2020-04-03 02:22:05,896 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 02:22:35,913 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 02:22:48,590 WARN       [Portal Clock [lumis.service.search.synonym.lumis.service.search.synonym.SynonymClock]] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Cluster active shards didn't return to 100% in timemout.
+2020-04-03 02:23:05,919 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 02:23:35,925 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 02:33:21,374 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 02:33:21,536 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 02:33:22,515 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 02:33:22,522 INFO       [Thread-30] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 02:33:22,522 INFO       [Thread-30] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 02:33:22,536 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 02:34:04,025 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 02:34:11,244 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@3ff3275b
+2020-04-03 02:34:16,072 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 02:34:16,159 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 02:34:21,495 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 02:34:21,672 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 02:34:21,680 ERROR      [ExecutorManager-2] lumis.portal.PortalConfiguration - Error initializing big data
+java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{9_mALETTR6WFbdYVjfxARw}{elasticsearch}{172.25.0.2:9300}]]
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:232)
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:188)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.PortalConfiguration$2.run(PortalConfiguration.java:751)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: NoNodeAvailableException[None of the configured nodes are available: [{#transport#-1}{9_mALETTR6WFbdYVjfxARw}{elasticsearch}{172.25.0.2:9300}]]
+	at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:352)
+	at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:248)
+	at org.elasticsearch.client.transport.TransportProxyClient.execute(TransportProxyClient.java:57)
+	at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:386)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:393)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:382)
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.execute(AbstractClient.java:676)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:45)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:52)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.doInit(ElasticsearchRepository.java:501)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.init(ElasticsearchRepository.java:433)
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:222)
+	... 9 more
+2020-04-03 02:36:42,807 INFO       [Lumis Monitor Processor - 0] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 02:37:42,421 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 02:37:42,433 INFO       [Lumis Monitor Processor - 0] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 02:37:42,437 INFO       [Lumis Monitor Processor - 0] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 02:37:42,437 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 02:37:42,437 ERROR      [Lumis Monitor Processor - 0] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.RuntimeException: java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:232)
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:188)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchIndexer.executeSync(ElasticsearchIndexer.java:433)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchIndexer.executeSync(ElasticsearchIndexer.java:414)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.doInit(ElasticsearchRepository.java:585)
+	at lumis.portal.bigdata.elasticsearch.ElasticsearchRepository.init(ElasticsearchRepository.java:433)
+	at lumis.portal.bigdata.BigDataManager.createRepository(BigDataManager.java:222)
+	... 15 more
+Caused by: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at org.elasticsearch.client.transport.TransportClientNodesService$RetryListener.onFailure(TransportClientNodesService.java:294)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:59)
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1124)
+	at org.elasticsearch.transport.TransportService$8.run(TransportService.java:966)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	... 3 more
+Caused by: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected]
+2020-04-03 02:37:42,437 ERROR      [Lumis Monitor Processor - 1] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 02:37:42,437 ERROR      [Lumis Monitor Processor - 3] lumis.portal.monitor.impl.MonitorUtilInternal - Error sending data to big data repository.
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getOrCreateDocumentType(MonitorUtilInternal.java:1400)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1240)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.getDocument(MonitorUtilInternal.java:1221)
+	at lumis.portal.monitor.impl.MonitorUtilInternal.persistMonitorEventData(MonitorUtilInternal.java:1624)
+	at lumis.portal.monitor.impl.Monitor.sendData(Monitor.java:258)
+	at lumis.portal.monitor.impl.Monitor.lambda$scheduleSendData$1(Monitor.java:251)
+	at co.elastic.apm.agent.impl.async.SpanInScopeRunnableWrapper.run(SpanInScopeRunnableWrapper.java:64)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at lumis.portal.monitor.impl.MonitorManager$MonitorRunnableWrapper.run(MonitorManager.java:473)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 02:37:42,499 ERROR 172.25.0.1 admin    [LumisRequest - ajp-nio-8009-exec-6; url: [http://localhost/lumis/service/activitystream/rest/activities.lumis?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10]; login: [admin]] lumis.portal.rest.PortalDefaultExceptionMapper - Exception thrown during call to GET http://localhost/lumis/service/activitystream/rest/activities?activityStreamInterfaceInstanceId=00000000E00000000000000000000006&maxResults=10
+java.lang.IllegalStateException: Repository is not available due to error during last initialization attempt. Reconfigure or try again in a minute. Original error was: java.lang.RuntimeException: NoNodeAvailableException[None of the configured nodes were available: [{node1}{HFD0lpN5QsqR6PfdY9mXFQ}{eLW5bKt5RKiEGKJuDFEyBw}{172.25.0.2}{172.25.0.2:9300}{ml.machine_memory=16458690560, ml.max_open_jobs=20, xpack.installed=true}]]; nested: NodeDisconnectedException[[node1][172.25.0.2:9300][cluster:monitor/health] disconnected];
+	at lumis.portal.bigdata.BigDataManager.getRepository(BigDataManager.java:185)
+	at lumis.portal.bigdata.BigDataManager.getDefaultRepository(BigDataManager.java:158)
+	at lumis.service.activitystream.ActivityStreamManager.getActivities(ActivityStreamManager.java:311)
+	at lumis.service.activitystream.ActivityStreamResource.getActivities(ActivityStreamResource.java:202)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)
+	at lumis.portal.rest.BaseRestServletContainer.doFilter(BaseRestServletContainer.java:218)
+	at lumis.portal.rest.RestRootFilter.doFilter(RestRootFilter.java:341)
+	at org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter$RequestWrapper$1.forward(WebServerIntegrationInitFilter.java:319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.bull.javamelody.JspWrapper.invoke(JspWrapper.java:152)
+	at net.bull.javamelody.JdbcWrapper$DelegatingInvocationHandler.invoke(JdbcWrapper.java:294)
+	at com.sun.proxy.$Proxy228.forward(Unknown Source)
+	at lumis.portal.webserver.WebServerIntegrationForwardFilter.doFilter(WebServerIntegrationForwardFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.service.seo.sitemap.SitemapFilter.doFilter(SitemapFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceForwardFilter.doFilter(WebResourceForwardFilter.java:347)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.security.csr.CrossSiteRequestFilter.doFilter(CrossSiteRequestFilter.java:264)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.url.WebResourceDiscoveryFilter.doFilter(WebResourceDiscoveryFilter.java:365)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.presentation.PortalModeDiscoveryFilter.doFilter(PortalModeDiscoveryFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:232)
+	at net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:209)
+	at lumis.service.portalmanagement.monitoring.JavaMelodyCustomMonitoringFilter.doFilter(JavaMelodyCustomMonitoringFilter.java:221)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.authentication.AuthenticationFilter.changeThreadNameAndProceed(AuthenticationFilter.java:490)
+	at lumis.portal.authentication.AuthenticationFilter.lambda$doFilter$0(AuthenticationFilter.java:291)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.authentication.AuthenticationFilter.doFilter(AuthenticationFilter.java:282)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.monitor.impl.MonitorContextFilter.lambda$doFilter$1(MonitorContextFilter.java:424)
+	at lumis.portal.util.PortalUtilInternal.execWithSilentThrow(PortalUtilInternal.java:533)
+	at lumis.util.log.MDCUtil.execWithValues(MDCUtil.java:60)
+	at lumis.portal.monitor.impl.MonitorContextFilter.doFilter(MonitorContextFilter.java:402)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.page.cache.PageCacheSSIFilter.doFilter(PageCacheSSIFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalRequestContextFilter.doFilter(PortalRequestContextFilter.java:97)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.filter.EncodingUTF8Filter.doFilter(EncodingUTF8Filter.java:35)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.webserver.WebServerIntegrationInitFilter.doFilter(WebServerIntegrationInitFilter.java:367)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.website.WebsiteDiscoveryFilter.doFilter(WebsiteDiscoveryFilter.java:302)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at lumis.portal.PortalConfiguration$RequestInitializer.doFilter(PortalConfiguration.java:155)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:747)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.ajp.AjpProcessor.service(AjpProcessor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 02:37:43,409 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 02:37:43,421 INFO       [Thread-30] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 02:50:15,058 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 02:50:15,346 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@6870c3c2
+2020-04-03 02:50:18,879 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 02:56:57,831 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 02:56:57,851 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 02:57:06,436 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 02:57:13,611 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@4f1f2f84
+2020-04-03 02:57:17,315 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 02:57:17,339 INFO       [ExecutorManager-3] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 02:57:25,858 INFO       [ExecutorManager-3] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 02:58:08,052 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 03:01:47,090 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 03:01:54,435 INFO       [QueueProcessor 1 - 2C9A8088713DF88C01713DFCBDD2009E] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 4 users reindexed.
+2020-04-03 03:02:17,114 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 03:02:47,132 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-03 03:02:47,897 WARN       [Portal Clock [lumis.service.search.synonym.lumis.service.search.synonym.SynonymClock]] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Cluster active shards didn't return to 100% in timemout.
+2020-04-03 03:13:16,270 WARN  172.26.0.1     [LumisRequest - http-nio-8080-exec-3; url: [http://localhost:8080/lumis/portal/client/images/favicon.png]] lumis.portal.security.csr.CrossSiteRequestFilter - The request is not allowed to access this site: Origin: ''; Method: 'GET'; Path: '/lumis/portal/client/images/favicon.png'. Blocking access...
+2020-04-03 03:15:18,700 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 03:18:14,222 WARN  172.26.0.1 admin    [LumisRequest - ajp-nio-8009-exec-3; url: [http://localhost/favicon.ico.lumis]; login: [admin]] lumis.portal.security.csr.CrossSiteRequestFilter - The request is not allowed to access this site: Origin: ''; Method: 'GET'; Path: '/favicon.ico'. Blocking access...
+2020-04-03 03:20:51,284 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 03:20:51,564 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 03:20:52,233 INFO       [Thread-31] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 03:20:52,236 INFO       [Thread-31] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 03:20:52,236 INFO       [Thread-31] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 03:20:52,267 INFO       [Thread-31] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 03:32:58,120 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 03:32:58,217 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@6870c3c2
+2020-04-03 03:32:59,480 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 03:37:19,295 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 03:37:19,307 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 03:37:25,043 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 03:37:29,889 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@7962c1d5
+2020-04-03 03:37:32,537 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 03:37:32,551 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 03:37:38,970 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 03:38:24,932 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 03:41:55,171 INFO       [QueueProcessor 1 - 2C9B8088713E1D6C01713E217769008B] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 4 users reindexed.
+2020-04-03 11:46:45,655 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 11:46:47,059 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 11:46:48,466 INFO       [Thread-34] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 11:46:48,470 INFO       [Thread-34] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-03 11:46:48,470 INFO       [Thread-34] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-03 11:46:48,479 INFO       [Thread-34] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 15:52:14,698 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 15:52:15,157 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@6870c3c2
+2020-04-03 15:52:17,414 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 15:56:35,750 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-03 15:56:35,787 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-03 15:56:48,648 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-03 15:56:52,452 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@22e1a1dc
+2020-04-03 15:56:56,261 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-03 15:56:56,364 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-03 15:57:16,342 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-03 15:57:27,942 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 16:01:30,687 INFO       [QueueProcessor 1 - 2C9E80887140C258017140C6772B009C] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 4 users reindexed.
+2020-04-03 16:08:10,265 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 16:08:40,276 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because there's a deployment in progress.
+2020-04-03 16:10:32,699 WARN  172.30.0.1 admin    [LumisRequest - ajp-nio-8009-exec-1; url: [http://localhost/favicon.ico.lumis]; login: [admin]] lumis.portal.security.csr.CrossSiteRequestFilter - The request is not allowed to access this site: Origin: ''; Method: 'GET'; Path: '/favicon.ico'. Blocking access...

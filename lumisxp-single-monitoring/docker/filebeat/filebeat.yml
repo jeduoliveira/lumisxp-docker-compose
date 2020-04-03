@@ -16,11 +16,11 @@ filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: false
 
-#output.elasticsearch:
-#  hosts: ["${ELASTICSEARCH_HOST}:9200"]
+output.elasticsearch:
+  hosts: ["${ELASTICSEARCH_HOST}:9200"]
 
-output.logstash:
-  hosts: ["${LOGSTASH_HOST}:5000"]
+#output.logstash:
+#  hosts: ["${LOGSTASH_HOST}:5000"]
 
 setup: 
   template.settings:
@@ -35,9 +35,9 @@ monitoring.enabled: true
 logging.to_files: false
 
 filebeat.modules:
-#- module: system
-#  syslog:
-#    var.paths: ["/var/log/host/system.log*"]
+- module: system
+  syslog:
+    var.paths: ["/var/log/host/system.log*"]
 
 - module: apache
   access:

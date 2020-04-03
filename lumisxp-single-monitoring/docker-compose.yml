@@ -99,7 +99,7 @@ services:
     user: root
     networks: ['monitoring'] 
     restart: on-failure     
-    links: ['logstash']
+    #links: ['logstash']
     volumes:
       - type: volume
         source: filebeat
@@ -127,25 +127,25 @@ services:
       - KIBANA_HOST=${KIBANA_HOST:-node1}      
       - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}      
 
-  logstash:
-    build:
-      context: docker/logstash
-      args:
-        ELK_VERSION: $ELK_VERSION
-    command: [ "-e"]
-    ports:
-      - "5000:5000/tcp"
-      - "5000:5000/udp"
-      - "9600:9600"
-    environment:
-      - LS_JAVA_OPTS=-Xmx256m -Xms256m
-      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}    
-    networks: ['monitoring'] 
-    depends_on: ['kibana', 'elasticsearch']
-    volumes:      
-      - type: bind
-        source: /etc/localtime
-        target: /etc/localtime
+  #logstash:
+  #  build:
+  #    context: docker/logstash
+  #    args:
+  #      ELK_VERSION: $ELK_VERSION
+  #  command: [ "-e"]
+  #  ports:
+  #    - "5000:5000/tcp"
+  #    - "5000:5000/udp"
+  #    - "9600:9600"
+  #  environment:
+  #    - LS_JAVA_OPTS=-Xmx256m -Xms256m
+  #    - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}    
+  #  networks: ['monitoring'] 
+  #  depends_on: ['kibana', 'elasticsearch']
+  #  volumes:      
+  #    - type: bind
+  #      source: /etc/localtime
+  #      target: /etc/localtime
 
   apm-server:
     build: 
@@ -227,7 +227,7 @@ services:
       - type: bind
         source: /etc/localtime
         target: /etc/localtime
-    depends_on: ['db', 'elasticsearch']
+    depends_on: [ 'elasticsearch']
     networks: ['monitoring']
     ports: ['8080:8080', '8009:8009']
     links: ['apm-server', 'db']
