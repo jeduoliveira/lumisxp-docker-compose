@@ -99,7 +99,7 @@ services:
     user: root
     networks: ['monitoring'] 
     restart: on-failure     
-    #links: ['logstash']
+    links: ['logstash']
     volumes:
       - type: volume
         source: filebeat
@@ -117,8 +117,8 @@ services:
         source: ./logs/lumisportal
         target: /var/log/lumisportal  
       - type: bind
-        source: ./logs/mysql
-        target: /var/log/mysql
+        source: ./logs/tomcat
+        target: /var/log/tomcat        
       - type: bind
         source: /etc/localtime
         target: /etc/localtime
@@ -127,25 +127,25 @@ services:
       - KIBANA_HOST=${KIBANA_HOST:-node1}      
       - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}      
 
-  #logstash:
-  #  build:
-  #    context: docker/logstash
-  #    args:
-  #      ELK_VERSION: $ELK_VERSION
-  #  command: [ "-e"]
-  #  ports:
-  #    - "5000:5000/tcp"
-  #    - "5000:5000/udp"
-  #    - "9600:9600"
-  #  environment:
-  #    - LS_JAVA_OPTS=-Xmx256m -Xms256m
-  #    - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}    
-  #  networks: ['monitoring'] 
-  #  depends_on: ['kibana', 'elasticsearch']
-  #  volumes:      
-  #    - type: bind
-  #      source: /etc/localtime
-  #      target: /etc/localtime
+  logstash:
+    build:
+      context: docker/logstash
+      args:
+        ELK_VERSION: $ELK_VERSION
+    command: [ "-e"]
+    ports:
+      - "5000:5000/tcp"
+      - "5000:5000/udp"
+      - "9600:9600"
+    environment:
+      - LS_JAVA_OPTS=-Xmx256m -Xms256m
+      - ELASTICSEARCH_HOST=${ELASTICSEARCH_HOST:-node1}    
+    networks: ['monitoring'] 
+    depends_on: ['kibana', 'elasticsearch']
+    volumes:      
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
 
   apm-server:
     build: 
@@ -176,9 +176,6 @@ services:
       - type: volume
         source: database_data
         target: /var/lib/mysql
-      - type: bind
-        source: ./logs/mysql
-        target: /var/log/mysql/
       - type: bind
         source: /etc/localtime
         target: /etc/localtime
@@ -225,11 +222,14 @@ services:
         source: ./logs/lumisportal
         target: /usr/local/lumisportal/lumisdata/log
       - type: bind
+        source: ./logs/tomcat
+        target: /usr/local/tomcat/logs
+      - type: bind
         source: /etc/localtime
         target: /etc/localtime
     depends_on: [ 'elasticsearch']
     networks: ['monitoring']
-    ports: ['8080:8080', '8009:8009']
+    ports: ['8080:8080', '8009:8009', '9999:9999', '8778:8778']
     links: ['apm-server', 'db']
     healthcheck:
       test: curl -sS http://localhost:8080/login.jsp || exit 1

@@ -63,6 +63,52 @@ metricbeat.modules:
   period: 10s
   hosts: ["http://apache"]
 
+
+  #------------------------------- Apache Module -------------------------------
+
+- module: jolokia
+  metricsets: ["jmx"]
+  period: 30s
+  hosts: ["lumisxp:8778"]
+  namespace: "metrics"
+  path: "/jolokia/?ignoreErrors=true&canonicalNaming=false"
+  #username: "monitor"
+  #password: "secret"
+  jmx.mappings:
+    - mbean: 'java.lang:type=Memory'
+      attributes:
+        - attr: HeapMemoryUsage
+          field: memory.heap_usage
+    - mbean: 'java.lang:type=Threading'
+      attributes:
+        - attr: ThreadCount
+          field: threading.thread_count
+    - mbean: 'java.lang:type=OperatingSystem'
+      attributes:
+        - attr: SystemCpuLoad
+          field: system.system_cpu_load
+        - attr: SystemLoadAverage
+          field: system.system_load_average
+        - attr: OpenFileDescriptorCount
+          field: system.opened_file_descriptors
+    - mbean: 'Catalina:type=ThreadPool,name="ajp-nio-8009"'
+      attributes:
+        - attr: currentThreadCount
+          field: threads.current_threads_count
+        - attr: currentThreadsBusy
+          field: threads.current_threads_busy
+    - mbean: 'com.zaxxer.hikari:type=Pool (HikariPool-1)'
+      attributes:
+        - attr: TotalConnections
+          field: pool.total_connections
+        - attr: ActiveConnections
+          field: pool.active_connections
+  jmx.application:
+  jmx.instance:
+  fields:
+    type: lumisxp-jmx
+  fields_under_root: true
+
 setup.template.settings:
   index.number_of_shards: 1
   index.codec: best_compression

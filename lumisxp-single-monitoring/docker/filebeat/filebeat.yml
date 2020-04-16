@@ -1,32 +1,59 @@
-filebeat: 
-  #prospectors:
-  #  - paths:
-  #      - /var/log/lumisportal/full/logfull.log
-  #    input_type: log
-  #    multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
-  #    multiline.negate: true
-  #    multiline.match: after 
+
+filebeat:
+  config:
+    modules:
+      path: ${path.config}/modules.d/*.yml
+      reload:
+        enabled: false
   inputs:
   - type: log
-    enabled: false
+    enabled: true
     paths:
       - /var/log/*.log
+  
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/tomcat/*
+    tags: ["catalina"]
+    document_type: catalina
+    fields:
+      type: catalina
+    fields_under_root: true
+    multiline:
+      pattern: '^[[:space:]]'
+      negate: false
+      match: after
+  
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/lumisportal/full/*
+    tags: ["lumislog"]
+    document_type: lumislogfull
+    fields:
+      type: lumislogfull
+    fields_under_root: true
+    multiline:
+      pattern: '^[[:space:]]'
+      negate: false
+      match: after
 
-filebeat.config.modules:
-  path: ${path.config}/modules.d/*.yml
-  reload.enabled: false
 
-output.elasticsearch:
-  hosts: ["${ELASTICSEARCH_HOST}:9200"]
+#output.elasticsearch:
+#  hosts: ["${ELASTICSEARCH_HOST}:9200"]
 
-#output.logstash:
-#  hosts: ["${LOGSTASH_HOST}:5000"]
+output:
+  logstash:
+    hosts: ["${LOGSTASH_HOST}:5000"]
 
 setup: 
   template.settings:
     index.number_of_shards: 1
-  kibana.host: "${KIBANA_HOST}:5601"
-  dashboards.enabled: true
+  kibana:
+    host: "${KIBANA_HOST}:5601"
+  dashboards:
+    enabled: true
 
 processors:
   - add_host_metadata: ~
@@ -35,10 +62,6 @@ monitoring.enabled: true
 logging.to_files: false
 
 filebeat.modules:
-- module: system
-  syslog:
-    var.paths: ["/var/log/host/system.log*"]
-
 - module: apache
   access:
     enabled: true

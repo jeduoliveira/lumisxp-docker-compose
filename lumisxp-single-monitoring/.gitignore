@@ -1,1 +1,2 @@
-logs/*.*
+logs/apache2/*.*
+logs/lumisportal/*.*

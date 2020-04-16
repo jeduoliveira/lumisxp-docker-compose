@@ -1,0 +1,91 @@
+04-Apr-2020 23:48:38.019 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'emptySessionPath' to 'true' did not find a matching property.
+04-Apr-2020 23:48:38.114 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Engine/Host/Valve] failed to set property [remoteIpProxiesHeader] to [x-forwarded-by]
+04-Apr-2020 23:48:38.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.30
+04-Apr-2020 23:48:38.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 16:42:04 UTC
+04-Apr-2020 23:48:38.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.30.0
+04-Apr-2020 23:48:38.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.3.0-45-generic
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/zulu-11
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-LTS
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+04-Apr-2020 23:48:38.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+04-Apr-2020 23:48:38.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Apr-2020 23:48:38.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Apr-2020 23:48:38.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Apr-2020 23:48:38.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+04-Apr-2020 23:48:38.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF8
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512M
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+04-Apr-2020 23:48:38.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9999
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/usr/local/elastic-apm-agent-1.7.0.jar
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Delastic.apm.server_urls=http://apm-server:8200
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Delastic.apm.service_name=lumisportal
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Delastic.apm.application_packages=lumis
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/usr/local/jolokia-jvm-1.6.2-agent.jar=host=0.0.0.0
+04-Apr-2020 23:48:38.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Apr-2020 23:48:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+04-Apr-2020 23:48:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+04-Apr-2020 23:48:38.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+04-Apr-2020 23:48:38.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/local/tomcat/native-jni-lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Apr-2020 23:48:38.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Apr-2020 23:48:38.467 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2020 23:48:38.505 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [788] milliseconds
+04-Apr-2020 23:48:38.578 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Apr-2020 23:48:38.578 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.30]
+04-Apr-2020 23:48:38.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml]
+04-Apr-2020 23:48:38.656 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml] has been ignored
+04-Apr-2020 23:48:38.666 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml] with an external docBase means the directory [/usr/local/tomcat/webapps/ROOT] in the appBase will be ignored
+04-Apr-2020 23:48:39.902 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2020 23:48:52.764 INFO [main] com.sun.portal.container.service.ServiceManagerContextListenerImpl.contextInitialized PSC_CSPCS001 : Started initializing ServiceManager
+04-Apr-2020 23:48:52.805 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.CoordinationService, Implementation: com.sun.portal.container.service.coordination.impl.CoordinationServiceImpl
+04-Apr-2020 23:48:52.817 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.CachingService, Implementation: com.sun.portal.container.service.caching.impl.CachingServiceImpl
+04-Apr-2020 23:48:52.819 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.ClientCachingService, Implementation: com.sun.portal.container.service.caching.impl.ClientCachingServiceImpl
+04-Apr-2020 23:48:52.834 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.DeploymentService_Local, Implementation: com.sun.portal.container.service.deployment.impl.DeploymentServiceLocalImpl
+04-Apr-2020 23:48:52.837 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.ContainerEventService, Implementation: com.sun.portal.container.service.coordination.impl.ContainerEventServiceImpl
+04-Apr-2020 23:48:52.857 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.PolicyService, Implementation: com.sun.portal.container.service.policy.impl.PolicyServiceImpl
+04-Apr-2020 23:48:52.903 INFO [main] com.sun.portal.container.service.ServiceManager.addService PSC_CSPCS004 : Service added, Name: com.sun.portal.container.service.DeploymentService_Remote, Implementation: com.sun.portal.wsrp.consumer.common.DeploymentServiceRemoteImpl
+04-Apr-2020 23:48:52.903 INFO [main] com.sun.portal.container.service.ServiceManagerContextListenerImpl.contextInitialized PSC_CSPCS002 : Finished initializing ServiceManager
+04-Apr-2020 23:48:52.951 INFO [main] org.apache.pluto.core.PortletContainerImpl.infoWithName Portlet Container [Lumis JSR168 container]: Container initialized successfully.
+04-Apr-2020 23:48:53.516 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+04-Apr-2020 23:48:54.236 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.authentication.jaxws.LoginUser
+04-Apr-2020 23:48:54.257 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.authentication.jaxws.LoginUserResponse
+04-Apr-2020 23:48:54.264 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.authentication.jaxws.LogoutUser
+04-Apr-2020 23:48:54.265 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.authentication.jaxws.LogoutUserResponse
+04-Apr-2020 23:48:56.185 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.SetPassword
+04-Apr-2020 23:48:56.217 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.SetPasswordResponse
+04-Apr-2020 23:48:56.247 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.GetUserIdByLogin
+04-Apr-2020 23:48:56.298 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.GetUserIdByLoginResponse
+04-Apr-2020 23:48:56.320 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.Add
+04-Apr-2020 23:48:56.324 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.AddResponse
+04-Apr-2020 23:48:56.388 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.Get
+04-Apr-2020 23:48:56.390 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.GetResponse
+04-Apr-2020 23:48:56.392 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.Update
+04-Apr-2020 23:48:56.394 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.UpdateResponse
+04-Apr-2020 23:48:56.396 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getRequestWrapperClass Dynamically creating request wrapper Class lumis.portal.webservice.user.jaxws.Delete
+04-Apr-2020 23:48:56.398 INFO [main] com.sun.xml.ws.model.RuntimeModeler.getResponseWrapperClass Dynamically creating response wrapper bean Class lumis.portal.webservice.user.jaxws.DeleteResponse
+04-Apr-2020 23:48:57.779 INFO [main] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+04-Apr-2020 23:49:18.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/usr/local/tomcat/conf/Catalina/localhost/ROOT.xml] has finished in [40,242] ms
+04-Apr-2020 23:49:18.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/manager]
+04-Apr-2020 23:49:20.504 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2020 23:49:20.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/manager] has finished in [1,896] ms
+04-Apr-2020 23:49:20.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/examples]
+04-Apr-2020 23:49:23.820 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2020 23:49:23.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/examples] has finished in [3,111] ms
+04-Apr-2020 23:49:23.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/docs]
+04-Apr-2020 23:49:23.991 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2020 23:49:23.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/docs] has finished in [152] ms
+04-Apr-2020 23:49:23.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/host-manager]
+04-Apr-2020 23:49:24.191 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2020 23:49:24.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/host-manager] has finished in [200] ms
+04-Apr-2020 23:49:24.196 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Apr-2020 23:49:24.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2020 23:49:24.327 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [45,821] milliseconds

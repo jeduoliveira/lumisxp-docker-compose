@@ -1,0 +1,233 @@
+2020-04-04 23:43:57,362 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-04 23:43:57,480 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@6870c3c2
+2020-04-04 23:43:58,427 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-04 23:44:01,190 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_HOME_NAME' - Description: 'Added page:
+  id: LumisChannelHome
+  name: STR_CHANNEL_HOME_NAME
+  description: STR_CHANNEL_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,394 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SERVICES_NAME' - Description: 'Added page:
+  id: LumisServices
+  name: STR_SERVICES_NAME
+  description: STR_SERVICES_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,403 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGES_NAME' - Description: 'Added page:
+  id: LumisPages
+  name: STR_PAGES_NAME
+  description: STR_PAGES_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,419 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_SUBCHANNELS_NAME' - Description: 'Added page:
+  id: LumisSubChannels
+  name: STR_SUBCHANNELS_NAME
+  description: STR_SUBCHANNELS_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,428 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_PAGE_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisPageTemplates
+  name: STR_PAGE_TEMPLATES_NAME
+  description: STR_PAGE_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,436 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_CHANNEL_TEMPLATES_NAME' - Description: 'Added page:
+  id: LumisChannelTemplates
+  name: STR_CHANNEL_TEMPLATES_NAME
+  description: STR_CHANNEL_TEMPLATES_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,453 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_GROUPS_NAME' - Description: 'Added page:
+  id: LumisLocalGroups
+  name: STR_LOCAL_GROUPS_NAME
+  description: STR_LOCAL_GROUPS_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,461 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_LOCAL_USERS_NAME' - Description: 'Added page:
+  id: LumisLocalUsers
+  name: STR_LOCAL_USERS_NAME
+  description: STR_LOCAL_USERS_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:01,471 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_BLANK_PAGE' - Description: 'Added page:
+  id: LumisBlankPage
+  name: STR_BLANK_PAGE
+  description: STR_BLANK_PAGE_DESCRIPTION
+  channel id: null'
+2020-04-04 23:44:02,257 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Website - Type: Add Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website: default' - Description: 'Added website: 
+  id: 2C98808971479457017147946ECA0143
+  Name: default'
+2020-04-04 23:44:02,261 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8080/portal' - Description: 'Added website main URL: 
+  id: 2C98808971479457017147946ECA0144
+  URL: localhost:8080/portal
+  Website: default(2C98808971479457017147946ECA0143)'
+2020-04-04 23:44:02,263 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Website - Type: Add Website Main URL - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added website main URL: localhost:8443/portal' - Description: 'Added website main URL: 
+  id: 2C98808971479457017147946ECA0145
+  URL: localhost:8443/portal
+  Website: default(2C98808971479457017147946ECA0143)'
+2020-04-04 23:44:02,270 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Website - Type: Update Website - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated website: default' - Description: 'Updated website: 
+  id: 2C98808971479457017147946ECA0143
+  Name: default'
+2020-04-04 23:48:11,665 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_CHANNEL' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000002
+  interface id: lumis.service.portalmanagement.channel.home
+  display name: STR_CHANNEL
+  page id: LumisChannelHome
+  page name: STR_CHANNEL_HOME_NAME
+  service instance id: null'
+2020-04-04 23:48:11,669 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SERVICE_INSTANCES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000000
+  interface id: lumis.service.portalmanagement.serviceinstance.administration
+  display name: STR_MANAGE_SERVICE_INSTANCES
+  page id: LumisServices
+  page name: STR_SERVICES_NAME
+  service instance id: null'
+2020-04-04 23:48:11,673 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000001
+  interface id: lumis.service.portalmanagement.page.administration
+  display name: STR_MANAGE_PAGES
+  page id: LumisPages
+  page name: STR_PAGES_NAME
+  service instance id: null'
+2020-04-04 23:48:11,676 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_SUBCHANNELS' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000003
+  interface id: lumis.service.portalmanagement.channel.administration
+  display name: STR_MANAGE_SUBCHANNELS
+  page id: LumisSubChannels
+  page name: STR_SUBCHANNELS_NAME
+  service instance id: null'
+2020-04-04 23:48:11,680 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_CHANNEL_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000008
+  interface id: lumis.service.portalmanagement.channeltemplate.administration
+  display name: STR_MANAGE_CHANNEL_TEMPLATES
+  page id: LumisChannelTemplates
+  page name: STR_CHANNEL_TEMPLATES_NAME
+  service instance id: null'
+2020-04-04 23:48:11,683 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_MANAGE_PAGE_TEMPLATES' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000004
+  interface id: lumis.service.portalmanagement.pagetemplate.administration
+  display name: STR_MANAGE_PAGE_TEMPLATES
+  page id: LumisPageTemplates
+  page name: STR_PAGE_TEMPLATES_NAME
+  service instance id: null'
+2020-04-04 23:48:11,686 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_USER_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000006
+  interface id: lumis.service.portalmanagement.localuser.administration
+  display name: STR_USER_ADMINISTRATION
+  page id: LumisLocalUsers
+  page name: STR_LOCAL_USERS_NAME
+  service instance id: null'
+2020-04-04 23:48:11,689 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_GROUP_ADMINISTRATION' - Description: 'Added service interface instance
+  id: 00000000000000000000000000000007
+  interface id: lumis.service.portalmanagement.localgroup.administration
+  display name: STR_GROUP_ADMINISTRATION
+  page id: LumisLocalGroups
+  page name: STR_LOCAL_GROUPS_NAME
+  service instance id: null'
+2020-04-04 23:48:12,719 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: STR_WELCOME' - Description: 'Added page:
+  id: 1D6530765D5644709741AEAA3622D3BC
+  name: STR_WELCOME
+  description: STR_WELCOME
+  channel id: 00000000F00000000000000000000001
+  channel name: Portal'
+2020-04-04 23:48:15,381 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Channel - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added channel: Auto Administration Channel' - Description: 'Added channel:
+  id: 00000000F00000000000000000000002
+  name: Auto Administration Channel
+  description: Channel that contains the Auto Administration Default page.'
+2020-04-04 23:48:15,847 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Auto Administration' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000002
+  name: Auto Administration
+  description: Hidden Auto Administration Service Instance
+  service id: lumis.service.autoadministration
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-04 23:48:17,040 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added page: Dashboard' - Description: 'Added page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-04 23:48:17,044 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_HOLDER_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000003
+  interface id: lumis.service.autoadministration.interfaceHolder
+  display name: STR_INTERFACE_HOLDER_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-04 23:48:17,046 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_INTERFACE_NAVIGATION_NAME' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000004
+  interface id: lumis.service.autoadministration.navigation
+  display name: STR_INTERFACE_NAVIGATION_NAME
+  page id: 00000000E00000000000000000000001
+  page name: Dashboard
+  service instance id: 00000000E00000000000000000000002'
+2020-04-04 23:48:17,769 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service instance: Activity Stream' - Description: 'Added service instance:
+  id: 00000000E00000000000000000000005
+  name: Activity Stream
+  description: Hidden Activity Stream Service Instance
+  service id: lumis.service.activitystream
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-04 23:48:19,956 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Add Service Interface Instance - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Added service interface instance: STR_NOTIFICATIONS' - Description: 'Added service interface instance
+  id: 00000000E00000000000000000000006
+  interface id: lumis.service.activitystream.notifications
+  display name: STR_NOTIFICATIONS
+  page id: null
+  service instance id: 00000000E00000000000000000000005'
+2020-04-04 23:48:21,080 DEBUG      [main] lumis.portal.audit.AuditManager - Category: Structure - Type: Update Page - User: 00000000D00000000000000000000005 lumissystemuser - Title: 'Updated page: Dashboard' - Description: 'Updated page:
+  id: 00000000E00000000000000000000001
+  name: Dashboard
+  description: Dashboard
+  channel id: 00000000F00000000000000000000002
+  channel name: Auto Administration Channel'
+2020-04-04 23:48:34,298 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-04 23:48:34,309 INFO       [main] lumis.portal.PortalConfiguration - LumisXP shut down completed.
+2020-04-04 23:48:40,381 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initializing...
+2020-04-04 23:48:46,247 INFO       [main] lumis.portal.manager.ManagerFactoryInternal - ClusterManager instantiated: lumis.portal.cluster.SingleServerClusterManager@49f9758
+2020-04-04 23:48:52,689 INFO       [main] lumis.portal.PortalConfiguration - LumisXP core system initialized.
+2020-04-04 23:48:52,858 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Initializing ElasticsearchRepository...
+2020-04-04 23:49:07,586 INFO       [ExecutorManager-2] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository initialized.
+2020-04-04 23:49:54,825 ERROR      [Portal Clock [lumis.portal.geolocation.MaxMindDBUpdateClock]] lumis.portal.geolocation.MaxMindDBUpdateClock - Error downloading file for MaxMindDB update
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=null&suffix=tar.gz
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1919)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1515)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.getDatabaseFile(MaxMindDBUpdateClock.java:146)
+	at lumis.portal.geolocation.MaxMindDBUpdateClock.doTick(MaxMindDBUpdateClock.java:68)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-04 23:52:51,290 INFO       [QueueProcessor 1 - 2C988089714798B70171479C7988008B] lumis.portal.monitor.impl.MonitorUserReindexAllTask - Reindexing all monitor users completed. 4 users reindexed.
+2020-04-05 00:02:14,810 ERROR      [Portal Clock [lumis.service.portalmanagement.upgrade.upgradeCheckClock]] lumis.service.portalmanagement.upgrade.UpgradeCheckClock - Error checking available versions.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1320)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1159)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1062)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:402)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:404)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:364)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Request.execute(Request.java:177)
+	at lumis.service.portalmanagement.upgrade.UpgradeUtil.getAllAvailableVersions(UpgradeUtil.java:141)
+	at lumis.service.portalmanagement.upgrade.UpgradeUtil.getAvailableUpgradeVersions(UpgradeUtil.java:116)
+	at lumis.service.portalmanagement.upgrade.UpgradeCheckClock.doTick(UpgradeCheckClock.java:33)
+	at lumis.portal.clock.ClockManager.executeSchedule(ClockManager.java:205)
+	at lumis.portal.clock.ClockThread.run(ClockThreadPool.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:167)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:108)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1151)
+	... 22 more
+2020-04-05 01:01:54,802 INFO       [LumisXP Clock] lumis.portal.clock.ClockManager - Clock execution postponed because Big Data synonyms are being updated.
+2020-04-05 01:01:56,055 WARN       [Portal Clock [lumis.service.search.synonym.lumis.service.search.synonym.SynonymClock]] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Cluster active shards didn't return to 100% in timemout.
+2020-04-05 01:19:47,777 WARN  172.24.0.1 admin    [LumisRequest - ajp-nio-8009-exec-3; url: [http://localhost/dkjhadskjg/dfa.lumis]; login: [admin]] lumis.portal.security.csr.CrossSiteRequestFilter - The request is not allowed to access this site: Origin: ''; Method: 'GET'; Path: '/dkjhadskjg/dfa'. Blocking access...
+2020-04-05 01:21:08,584 WARN  172.24.0.1 admin    [LumisRequest - ajp-nio-8009-exec-6; url: [http://localhost/dkjhadskjg/dfa.lumis]; login: [admin]] lumis.portal.security.csr.CrossSiteRequestFilter - The request is not allowed to access this site: Origin: ''; Method: 'GET'; Path: '/dkjhadskjg/dfa'. Blocking access...
+2020-04-05 14:19:42,702 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-05 14:19:43,541 INFO       [ElasticsearchRepository shutdown hook] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-05 14:19:45,978 INFO       [Thread-37] lumis.portal.PortalConfiguration - LumisXP shutting down...
+2020-04-05 14:19:46,562 INFO       [Thread-37] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - Destroying ElasticsearchRepository...
+2020-04-05 14:19:46,562 INFO       [Thread-37] lumis.portal.bigdata.elasticsearch.ElasticsearchRepository - ElasticsearchRepository destroyed.
+2020-04-05 14:19:46,581 INFO       [Thread-37] lumis.portal.PortalConfiguration - LumisXP shut down completed.
