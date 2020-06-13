@@ -25,7 +25,7 @@ services:
         retries: 10
 
   elasticsearch:
-    image: jeduoliveira/lumisxp-elasticsearch:7.1.1
+    image: jeduoliveira/lumisxp-elasticsearch:6.3.2
     environment:
       - node.name=node1
       - cluster.name=lumisportal      
@@ -59,7 +59,7 @@ services:
       retries: 5
 
   lumisxp:
-    image: jeduoliveira/lumisxp:12.3.0.200408-freeversion-centos-7-zulu-11
+    image: jeduoliveira/lumisxp:12.1.0.191010-freeversion-centos-7-zulu-11
     environment:
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
