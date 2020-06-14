@@ -36,3 +36,12 @@ Removerá toda a stack, mas os volumes continuarão existindo.
 Removerá toda a stack inclusive os volumes
 
     make down-volume
+
+Versões Anteriores
+------------------
+
+docker-compose -f docker-compose-12.2.0.yml up -d --build
+
+docker-compose -f docker-compose-12.1.0.yml up -d --build
+
+docker-compose -f docker-compose-11.0.1.yml up -d --build

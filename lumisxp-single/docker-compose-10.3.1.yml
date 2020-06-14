@@ -25,7 +25,7 @@ services:
         retries: 10
 
   elasticsearch:
-    image: jeduoliveira/lumisxp-elasticsearch:6.3.2
+    image: jeduoliveira/lumisxp-elasticsearch:5.4.3
     environment:
       - node.name=node1
       - cluster.name=lumisportal      
@@ -34,8 +34,7 @@ services:
       - http.cors.enabled=true
       - http.cors.allow-origin=*
       - network.host=_eth0_
-      - "action.auto_create_index=-lumisportal-*,+*"
-      - "search.max_buckets=30000"
+      - "action.auto_create_index=-lumisportal-*,+*"      
     ulimits:
       nproc: 65535
       memlock:
@@ -59,7 +58,7 @@ services:
       retries: 5
 
   lumisxp:
-    image: jeduoliveira/lumisxp:11.0.1.181011-freeversion-centos-7-zulu-11
+    image: jeduoliveira/lumisxp:10.3.1.171215-freeversion-centos-7-openjdk-8
     environment:
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
