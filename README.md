@@ -1,4 +1,4 @@
-Vários Docker Composes para o Lumis XP
+LumisXP utilizando dockercompose
 ================================
 O que é?
 -----------------------
