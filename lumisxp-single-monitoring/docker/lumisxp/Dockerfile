@@ -1,4 +1,4 @@
-FROM jeduoliveira/lumisxp:12.2.0.200122-centos-7-zulu-11
+FROM jeduoliveira/lumisxp:12.4.0.200625-freeversion-centos-7-zulu-11
 
 COPY elastic-apm-agent-1.7.0.jar /usr/local/
 COPY jolokia-jvm-1.6.2-agent.jar /usr/local/

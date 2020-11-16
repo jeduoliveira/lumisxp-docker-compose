@@ -107,7 +107,7 @@ services:
     depends_on:
       - lumisxp     
     ports: 
-      - 80:80    
+      - "80:80"    
     links:
       - lumisxp
     networks:
@@ -116,20 +116,6 @@ services:
     - type: volume 
       source: lumis_htdocs
       target: /usr/local/apache2/htdocs
-
-  kibana:
-    image: docker.elastic.co/kibana/kibana:7.1.1 
-    ports: ['5601:5601']
-    networks: ['lumisxp']
-    volumes:      
-      - type: bind
-        source: /etc/localtime
-        target: /etc/localtime
-    healthcheck:
-      test: curl https://localhost:5601 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
-      interval: 30s
-      timeout: 10s
-      retries: 10
       
 volumes:
   database_data:

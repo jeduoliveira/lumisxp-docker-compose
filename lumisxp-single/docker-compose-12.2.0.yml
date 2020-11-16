@@ -103,7 +103,7 @@ services:
       retries: 50
 
   httpd:
-    build: ./httpd-container
+    image: jeduoliveira/httpd
     depends_on:
       - lumisxp     
     ports: 
