@@ -23,7 +23,7 @@ Dependências
 - Elasticsearch [github](https://github.com/jeduoliveira/lumisxp-elasticsearch)
 - Httpd 
 
-MakeFile
+Comandos
 --------
 
 Antes de executar o docker-compose é necessário verificar se alguns parâmentros do SO estão adequados, como :
