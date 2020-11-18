@@ -1,5 +1,0 @@
-[Sat Apr 04 20:37:53.589019 2020] [so:warn] [pid 1:tid 139811444096328] AH01574: module headers_module is already loaded, skipping
-[Sat Apr 04 20:37:53.589143 2020] [so:warn] [pid 1:tid 139811444096328] AH01574: module proxy_ajp_module is already loaded, skipping
-[Sat Apr 04 20:37:53.592508 2020] [mpm_event:notice] [pid 1:tid 139811444096328] AH00489: Apache/2.4.41 (Unix) configured -- resuming normal operations
-[Sat Apr 04 20:37:53.592544 2020] [core:notice] [pid 1:tid 139811444096328] AH00094: Command line: 'httpd -D FOREGROUND'
-[Sun Apr 05 11:19:32.221463 2020] [mpm_event:notice] [pid 1:tid 139811444096328] AH00492: caught SIGWINCH, shutting down gracefully
