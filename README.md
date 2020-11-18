@@ -27,21 +27,19 @@ MakeFile
 --------
 Iniciará toda a stack do lumisXP
 
-    make run
+     docker-compose -p lumisxp up -d
 
-Removerá toda a stack, mas os volumes continuarão existindo.
-
-    make down
+     -p := nome da stack
 
 Removerá toda a stack inclusive os volumes
 
-    make down-volume
+    docker-compose -p lumisxp  down --volumes
 
 Versões Anteriores
 ------------------
 
-docker-compose -f docker-compose-12.2.0.yml up -d --build
+docker-compose -p lumisxp12.2 -f docker-compose-12.2.0.yml up -d 
 
-docker-compose -f docker-compose-12.1.0.yml up -d --build
+docker-compose -p lumisxp12.1 -f docker-compose-12.1.0.yml up -d 
 
-docker-compose -f docker-compose-11.0.1.yml up -d --build
+docker-compose -p lumisxp11.0 -f docker-compose-11.0.1.yml up -d 
