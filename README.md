@@ -25,6 +25,14 @@ Dependências
 
 MakeFile
 --------
+
+Antes de executar o docker-compose é necessário verificar se alguns parâmentros do SO estão adequados, como :
+        
+        ulimit -n  # tem que retornar 65535
+        sysctl -a | grep max_map_count # tem que retornar 262144
+
+Se os parâmetros acima não estiverem com o valor informado o elasticsearch não irá rodar corretamente.
+
 Iniciará toda a stack do lumisXP
 
      docker-compose -p lumisxp up -d
