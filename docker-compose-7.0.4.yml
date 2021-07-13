@@ -49,9 +49,7 @@ services:
       - type: volume
         source: lumis_shared
         target: /usr/local/lumisportal/lumisdata/shared
-      - type: volume
-        source: lumis_htdocs
-        target: /usr/local/htdocs
+      
     depends_on:
        - database  
     ports: 
@@ -75,7 +73,6 @@ volumes:
  
   lumis_data:
   lumis_shared: 
-  lumis_htdocs:
-
+ 
 networks:
   lumisxp704:
