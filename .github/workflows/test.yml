@@ -1,25 +1,22 @@
 name: Test
 
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - main
+on: push
 
 jobs:
-  docker:
-    timeout-minutes: 10
+  test:
+    timeout-minutes: 20
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
 
     - name: Start containers
       run: docker-compose -f "docker-compose.yml" up -d
 
-    - name: Stop containers
+    - name: Test
+      run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
+    
+      - name: Stop containers
       if: always()
       run: docker-compose -f "docker-compose.yml" down
