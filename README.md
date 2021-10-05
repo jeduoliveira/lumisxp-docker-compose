@@ -1,3 +1,6 @@
+Este repositório não é um repositório oficial da empresa lumis
+================================
+
 LumisXP utilizando dockercompose
 ================================
 O que é?
