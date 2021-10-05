@@ -49,6 +49,8 @@ Removerá toda a stack inclusive os volumes
 Versões Anteriores
 ------------------
 
+docker-compose -p lumisxp14.1 -f docker-compose-14.1.0.yml up -d 
+
 docker-compose -p lumisxp12.2 -f docker-compose-12.2.0.yml up -d 
 
 docker-compose -p lumisxp12.1 -f docker-compose-12.1.0.yml up -d 
