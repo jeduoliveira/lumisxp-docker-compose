@@ -25,7 +25,7 @@ services:
         retries: 10
 
   elasticsearch:
-    image: jeduoliveira/lumisxp-elasticsearch:7.1.1
+    image: jeduoliveira/lumisxp-elasticsearch:7.9.3
     environment:
       - node.name=node1
       - cluster.name=lumisportal      
@@ -59,7 +59,7 @@ services:
       retries: 5
 
   lumisxp:
-    image: jeduoliveira/lumisxp:12.5.0.200928-freeversion
+    image: jeduoliveira/lumisxp:14.1.0.210906
     environment:
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
@@ -118,7 +118,7 @@ services:
       target: /usr/local/apache2/htdocs
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:7.1.1 
+    image: docker.elastic.co/kibana/kibana:7.9.3 
     ports: ['5601:5601']
     networks: ['lumisxp']
     volumes:      
