@@ -1,6 +1,10 @@
 name: Test
 
-on: push
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   test:
@@ -10,6 +14,16 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
+    - name: Trivy Scan - High and Critical Severity
+      uses: aquasecurity/trivy-action@0.0.7
+      with:
+        # image reference
+        image-ref: jeduoliveira/lumisxp:14.1.0.210906
+        # exit code when vulnerabilities were found
+        exit-code: 1
+        # severities of vulnerabilities to be displayed
+        severity: HIGH,CRITICAL
 
     - name: Start containers
       run: docker-compose -f "docker-compose.yml" up -d
