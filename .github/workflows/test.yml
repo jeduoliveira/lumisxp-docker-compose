@@ -16,7 +16,7 @@ jobs:
 
     - name: Test
       run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
-    
-      - name: Stop containers
+
+    - name: Stop containers
       if: always()
       run: docker-compose -f "docker-compose.yml" down
