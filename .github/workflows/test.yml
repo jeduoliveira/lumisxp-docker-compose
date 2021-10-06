@@ -33,7 +33,7 @@ jobs:
       with:
         time: '300s'
 
-    - name: Start containers
+    - name: View log lumisxp
       run: docker-compose logs lumisxp 
 
     - name: Test
