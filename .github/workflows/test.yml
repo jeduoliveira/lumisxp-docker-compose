@@ -28,12 +28,13 @@ jobs:
     - name: Start containers
       run: docker-compose  up -d
 
+    - name: Sleep for 300 seconds
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '300s'
+
     - name: Start containers
-      run: docker-compose logs -f lumisxp 
-
-    
-
-
+      run: docker-compose logs lumisxp 
 
     - name: Test
       run: docker run --network container:httpd appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
