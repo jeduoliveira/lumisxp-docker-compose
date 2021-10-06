@@ -59,7 +59,7 @@ services:
       retries: 5
 
   lumisxp:
-    image: jeduoliveira/lumisxp:14.1.0.210906
+    image: jeduoliveira/lumisxp:14.1.0.210906-FreeVersion
     environment:
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
