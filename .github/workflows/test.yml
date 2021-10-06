@@ -37,7 +37,7 @@ jobs:
       run: docker-compose logs lumisxp 
 
     - name: Test
-      run: docker run --network container:httpd appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
+      run: docker run --network container:httpd appropriate/curl -L --retry 10 --retry-connrefused http://localhost/
 
     - name: Stop containers
       if: always()
