@@ -104,6 +104,7 @@ services:
 
   httpd:
     image: jeduoliveira/httpd
+    container_name: httpd
     depends_on:
       - lumisxp     
     ports: 

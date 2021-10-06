@@ -29,7 +29,7 @@ jobs:
       run: docker-compose -f "docker-compose.yml" up -d
 
     - name: Test
-      run: docker run --network lumisxp-docker-compose_lumisxp appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
+      run: docker run --network container:httpd appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
 
     - name: Stop containers
       if: always()
