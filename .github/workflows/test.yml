@@ -26,7 +26,14 @@ jobs:
     #    severity: HIGH,CRITICAL
 
     - name: Start containers
-      run: docker-compose -f "docker-compose.yml" up -d
+      run: docker-compose  up -d
+
+    - name: Start containers
+      run: docker-compose logs -f lumisxp 
+
+    
+
+
 
     - name: Test
       run: docker run --network container:httpd appropriate/curl -s --retry 10 --retry-connrefused http://localhost/
