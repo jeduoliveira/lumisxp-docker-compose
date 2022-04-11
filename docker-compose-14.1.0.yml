@@ -16,8 +16,8 @@ services:
       - MYSQL_PASSWORD=lumisportal  
     networks:
       - lumisxp
-    #ports: 
-    #  - 3306:3306
+    ports: 
+      - 3306:3306
     healthcheck:
         test: "/usr/bin/mysql --user=lumisportal --password=lumisportal --execute \"SHOW DATABASES;\""
         interval: 2s

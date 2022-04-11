@@ -2,6 +2,7 @@ version: '3.7'
 services:
   database:
     image: mysql:8.0-oracle
+    restart: always
     command: >
         --default-authentication-plugin=mysql_native_password 
         --max_allowed_packet=134217728
@@ -22,6 +23,7 @@ services:
 
   elasticsearch:
     image: jeduoliveira/lumisxp-elasticsearch:7.9.3
+    restart: always
     environment:
       - node.name=node1
       - cluster.name=lumisportal      
@@ -52,7 +54,7 @@ services:
       test: curl -s http://elasticsearch:9200 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
       interval: 30s
       timeout: 10s
-      retries: 5
+      retries: 50
   
   lumisxp:
     image: jeduoliveira/lumisxp:14.1.1-amazonlinux2
@@ -60,6 +62,7 @@ services:
     #image: jeduoliveira/lumisxp:14.1.1-centos-stream8
     env_file:
       - .env 
+    restart: always
     environment:
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
@@ -105,6 +108,7 @@ services:
     
   apache:
     image: jeduoliveira/httpd
+    restart: always
     depends_on:
       - lumisxp     
     ports: 
