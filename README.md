@@ -46,6 +46,8 @@ Removerá toda a stack inclusive os volumes
 
     docker-compose -p lumisxp  down --volumes
 
+A senha do usuário root e lumisportal deve ser alterado no arquivo .env
+
 Versões Anteriores
 ------------------
 
