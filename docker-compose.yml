@@ -56,6 +56,8 @@ services:
   
   lumisxp:
     image: jeduoliveira/lumisxp:14.1.1-amazonlinux2
+    #image: jeduoliveira/lumisxp:14.1.1-rockylinux8.5
+    #image: jeduoliveira/lumisxp:14.1.1-centos-stream8
     env_file:
       - .env 
     environment:
