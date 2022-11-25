@@ -58,8 +58,8 @@ services:
   
   lumisxp:
     image: jeduoliveira/lumisxp:15.0.0-amazonlinux2
-    #image: jeduoliveira/lumisxp:14.1.1-rockylinux8.5
-    #image: jeduoliveira/lumisxp:14.1.1-centos-stream8
+    #image: jeduoliveira/lumisxp:15.0.0-rockylinux8.5
+    #image: jeduoliveira/lumisxp:15.0.0-centos-7
     env_file:
       - .env 
     restart: always
