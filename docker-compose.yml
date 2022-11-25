@@ -22,7 +22,7 @@ services:
       - lumisxp
 
   elasticsearch:
-    image: jeduoliveira/lumisxp-elasticsearch:7.9.3
+    image: jeduoliveira/lumisxp-elasticsearch:7.17.3
     restart: always
     environment:
       - node.name=node1
@@ -57,13 +57,14 @@ services:
       retries: 50
   
   lumisxp:
-    image: jeduoliveira/lumisxp:14.1.1-amazonlinux2
+    image: jeduoliveira/lumisxp:15.0.0-amazonlinux2
     #image: jeduoliveira/lumisxp:14.1.1-rockylinux8.5
     #image: jeduoliveira/lumisxp:14.1.1-centos-stream8
     env_file:
       - .env 
     restart: always
     environment:
+      - LUMIS_VERSION=15.0.0.221031
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
       - TOMCAT_HEAP=512M
