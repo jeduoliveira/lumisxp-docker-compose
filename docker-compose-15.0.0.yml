@@ -11,24 +11,22 @@ services:
       - type: volume
         source: database_data
         target: /var/lib/mysql
-    environment:
-      - MYSQL_ROOT_PASSWORD=lum1sPassw0rd
-      - MYSQL_PASSWORD=lum1sPassw0rd
-      - MYSQL_DATABASE=lumisportal
-      - MYSQL_USER=lumisportal
-      - TZ=America/Sao_Paulo
+    env_file:
+      - .env 
     ports:
       - 3306:3306
+    environment:
+      - MYSQL_DATABASE=lumisportal
+      - MYSQL_USER=lumisportal
     networks:
-      - lumis
+      - lumisxp
 
   elasticsearch:
-    image: public.ecr.aws/p7k8w7p7/elasticsearch:7.17.17
+    image: jeduoliveira/lumisxp-elasticsearch:7.17.3
     restart: always
     environment:
       - node.name=node1
-      - cluster.name=lumisportal  
-      - discovery.type=single-node  
+      - cluster.name=lumisportal      
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512M -Xmx512M"
       - http.cors.enabled=true
@@ -36,13 +34,11 @@ services:
       - network.host=_eth0_
       - "action.auto_create_index=-lumisportal-*,+*"
       - "search.max_buckets=30000"
-      - TZ=America/Sao_Paulo
     ulimits:
-      nproc: 262144
+      nproc: 65535
       memlock:
         soft: -1
         hard: -1
-    mem_limit: 1g
     cap_add:
       - ALL
     volumes:
@@ -53,7 +49,7 @@ services:
         source: lumis_analysis
         target: /usr/share/elasticsearch/config/lumis-analysis
     networks:
-      - lumis
+      - lumisxp
     healthcheck:
       test: curl -s http://elasticsearch:9200 >/dev/null; if [[ $$? == 52 ]]; then echo 0; else echo 1; fi
       interval: 30s
@@ -61,11 +57,14 @@ services:
       retries: 50
   
   lumisxp:
-    image: public.ecr.aws/p7k8w7p7/lumisxp:16.1.0.240131-FreeVersion
+    image: jeduoliveira/lumisxp:15.0.0-amazonlinux2
+    #image: jeduoliveira/lumisxp:15.0.0-rockylinux8.5
+    #image: jeduoliveira/lumisxp:15.0.0-centos-7
+    env_file:
+      - .env 
     restart: always
     environment:
-      - LUMIS_DB_PASSWORD=lum1sPassw0rd
-      - LUMIS_VERSION=16.1.0.240131
+      - LUMIS_VERSION=15.0.0.221031
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
       - TOMCAT_HEAP=512M
@@ -79,7 +78,6 @@ services:
       - ELASTICSEARCH_HOST=elasticsearch
       - ELASTICSEARCH_CLUSTER_NAME=lumisportal  
       - WEB_ROOT_PATH=/usr/local/htdocs
-      - TZ=America/Sao_Paulo
     volumes:
       - type: volume 
         source: lumis_analysis
@@ -100,7 +98,7 @@ services:
       - database
       - elasticsearch
     networks:
-      - lumis
+      - lumisxp
     ports: 
       - 8080:8080
     healthcheck:
@@ -110,7 +108,7 @@ services:
       retries: 50
     
   apache:
-    image: public.ecr.aws/p7k8w7p7/apache:2.4
+    image: jeduoliveira/httpd
     restart: always
     depends_on:
       - lumisxp     
@@ -119,9 +117,7 @@ services:
     links:
       - lumisxp
     networks:
-      - lumis
-    environment:
-      - TZ=America/Sao_Paulo
+      - lumisxp
     volumes:
     - type: volume 
       source: lumis_htdocs
@@ -136,4 +132,4 @@ volumes:
   lumis_htdocs:
 
 networks:
-  lumis:
+  lumisxp:

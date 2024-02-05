@@ -1,5 +1,4 @@
-Este repositório não é um repositório oficial da empresa lumis
-================================
+
 
 LumisXP utilizando dockercompose
 ================================
@@ -33,6 +32,14 @@ Antes de executar o docker-compose é necessário verificar se alguns parâmentr
         
         ulimit -n  # tem que retornar 65535
         sysctl -a | grep max_map_count # tem que retornar 262144
+
+caso não retorne os valores acima , edite o arquivo /etc/sysctl.conf para modificar o max_map_count, adicione o conteúdo abaixo
+
+         vm.max_map_count=262144
+
+Após execute o comando abaixo 
+
+        sysctl --system
 
 Se os parâmetros acima não estiverem com o valor informado o elasticsearch não irá rodar corretamente.
 
