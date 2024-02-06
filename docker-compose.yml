@@ -61,11 +61,11 @@ services:
       retries: 50
   
   lumisxp:
-    image: public.ecr.aws/p7k8w7p7/lumisxp:16.1.0.240131-FreeVersion
+    image: public.ecr.aws/p7k8w7p7/lumisxp:16.0.0.230707-FreeVersion
     restart: always
     environment:
       - LUMIS_DB_PASSWORD=lum1sPassw0rd
-      - LUMIS_VERSION=16.1.0.240131
+      - LUMIS_VERSION=16.0.0.230707
       - TOMCAT_AJP_MAX_THREADS=20
       - TOMCAT_HTTP_MAX_THREADS=5
       - TOMCAT_HEAP=512M
